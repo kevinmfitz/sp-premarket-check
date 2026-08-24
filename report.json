@@ -1,0 +1,34 @@
+{
+  "levels": {
+    "symbol": "ES=F",
+    "asOfUTC": "2026-08-24T23:02:30.540Z",
+    "currentPrice": 7674,
+    "prevDate": "2026-08-24",
+    "PDH": 7686.5,
+    "PDL": 7655,
+    "prevClose": 7669.75,
+    "sessionDate": "2026-08-25",
+    "ONH": 7677.5,
+    "ONL": 7673.25,
+    "currentOnRange": 4.25,
+    "avgOnRange20": 71.9125,
+    "onRangeSampleSize": 20,
+    "gapPoints": 4.25
+  },
+  "events": [],
+  "clusters": [
+    {
+      "a": "PDH",
+      "b": "ONH",
+      "distance": 9
+    },
+    {
+      "a": "ONH",
+      "b": "ONL",
+      "distance": 4.25
+    }
+  ],
+  "threshold": 11,
+  "rangeRead": "Tight",
+  "breakoutNotes": []
+}

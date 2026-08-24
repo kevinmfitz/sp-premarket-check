@@ -1,0 +1,84 @@
+{
+  "_source": "Whitehouse.gov OMB 'Schedule of Release Dates for Principal Federal Economic Indicators CY2026' (BLS/BEA/Census) + federalreserve.gov FOMC calendar, pulled 2026-08-24. High-impact releases relevant to a 9:30-11:30 ET S&P/ES session. Re-verify/refresh annually or if a release is postponed (e.g. government shutdown).",
+  "events": [
+    { "date": "2026-01-09", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-01-13", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-01-14", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-01-15", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-01-28", "event": "FOMC Rate Decision", "time": "14:00 ET", "impact": "high" },
+    { "date": "2026-01-29", "event": "GDP (Advance) / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-02-06", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-02-11", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-02-12", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-02-17", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-02-26", "event": "GDP / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-03-06", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-03-11", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-03-12", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-03-16", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-03-18", "event": "FOMC Rate Decision + SEP/Dot Plot", "time": "14:00 ET", "impact": "high" },
+    { "date": "2026-03-27", "event": "GDP / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-04-03", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-04-10", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-04-14", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-04-16", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-04-29", "event": "FOMC Rate Decision", "time": "14:00 ET", "impact": "high" },
+    { "date": "2026-04-30", "event": "GDP (Advance) / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-05-08", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-05-12", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-05-13", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-05-14", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-05-28", "event": "GDP / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-06-05", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-06-10", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-06-11", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-06-17", "event": "FOMC Rate Decision + SEP/Dot Plot", "time": "14:00 ET", "impact": "high" },
+    { "date": "2026-06-17", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-06-25", "event": "GDP / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-07-02", "event": "Employment Situation (NFP) [moved up for July 4th]", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-07-14", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-07-15", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-07-16", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-07-29", "event": "FOMC Rate Decision", "time": "14:00 ET", "impact": "high" },
+    { "date": "2026-07-30", "event": "GDP (Advance) / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-08-07", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-08-12", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-08-13", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-08-14", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-08-26", "event": "GDP / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-09-04", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-09-10", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-09-11", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-09-16", "event": "FOMC Rate Decision + SEP/Dot Plot", "time": "14:00 ET", "impact": "high" },
+    { "date": "2026-09-16", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-09-30", "event": "GDP / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-10-02", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-10-14", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-10-15", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-10-15", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-10-28", "event": "FOMC Rate Decision", "time": "14:00 ET", "impact": "high" },
+    { "date": "2026-10-29", "event": "GDP (Advance) / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-11-06", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-11-10", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-11-13", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-11-17", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-11-25", "event": "GDP / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" },
+
+    { "date": "2026-12-04", "event": "Employment Situation (NFP)", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-12-09", "event": "FOMC Rate Decision + SEP/Dot Plot", "time": "14:00 ET", "impact": "high" },
+    { "date": "2026-12-10", "event": "CPI", "time": "08:30 ET", "impact": "high" },
+    { "date": "2026-12-15", "event": "PPI", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-12-16", "event": "Retail Sales", "time": "08:30 ET", "impact": "medium" },
+    { "date": "2026-12-23", "event": "GDP (Advance) / Personal Income & Outlays (PCE)", "time": "08:30 ET", "impact": "high" }
+  ]
+}
