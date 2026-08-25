@@ -121,6 +121,20 @@
 
   footer{ font-size:0.82rem; color:var(--ink-faint); line-height:1.6; border-top:1px solid var(--border); padding-top:1.25rem; }
   footer .stamp{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:0.75rem; }
+
+  /* ---- Verdict banner ---- */
+  .verdict{ border-radius:14px; padding:1.25rem 1.4rem; box-shadow:var(--shadow); margin-bottom:1.5rem; border:1px solid var(--border); }
+  .verdict-favorable{ background:var(--bull-bg); border-color:color-mix(in srgb, var(--bull) 35%, var(--border)); }
+  .verdict-mixed{ background:var(--warn-bg); border-color:color-mix(in srgb, var(--warn) 35%, var(--border)); }
+  .verdict-low{ background:var(--high-bg); border-color:color-mix(in srgb, var(--high) 35%, var(--border)); }
+  .verdict-head{ display:flex; align-items:center; gap:0.6rem; margin-bottom:0.55rem; }
+  .verdict-label{ font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:var(--ink-faint); }
+  .verdict-title{ font-size:1.3rem; font-weight:700; letter-spacing:0.01em; }
+  .verdict-favorable .verdict-title{ color:var(--bull); }
+  .verdict-mixed .verdict-title{ color:var(--warn); }
+  .verdict-low .verdict-title{ color:var(--high); }
+  .verdict-notes{ margin:0; padding-left:1.1rem; display:flex; flex-direction:column; gap:0.35rem; font-size:0.9rem; color:var(--ink); line-height:1.45; }
+  .verdict-caveat{ margin:0.6rem 0 0; font-size:0.78rem; color:var(--ink-dim); font-style:italic; }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap">
 
@@ -131,12 +145,23 @@
   </div>
   <h2 class="session-date">Tuesday, August 25, 2026</h2>
 
+  <div class="verdict verdict-favorable">
+    <div class="verdict-head">
+      <span class="verdict-label">Today's Read</span>
+      <span class="verdict-title">FAVORABLE</span>
+    </div>
+    <ul class="verdict-notes">
+      <li>Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.</li><li>Overnight range is normal — no unusual skew toward either setup from range alone.</li>
+    </ul>
+    <p class="verdict-caveat">An environment read, not a trade call — both setups still require their full live sequence to confirm.</p>
+  </div>
+
   <div class="summary-bar">
     <div>
-      <div class="summary-price">7697.25<small>ES</small></div>
+      <div class="summary-price">7690.75<small>ES</small></div>
     </div>
     <div class="summary-gap">
-      <div class="gap-val up">+27.50 pts</div>
+      <div class="gap-val down">-0.25 pts</div>
       <div class="gap-label">gap vs. prior close</div>
     </div>
   </div>
@@ -146,12 +171,12 @@
     <div class="ladder-card">
       <div class="ladder">
         
-      <div class="rung lvl-pdh " style="top:47.51%">
+      <div class="rung lvl-pdh " style="top:30.68%">
         <div class="rung-line"></div>
         <div class="rung-dot"></div>
         <div class="rung-tag lane-0">
           <span class="rung-key">PDH</span>
-          <span class="rung-val">7686.50</span>
+          <span class="rung-val">7701.25</span>
         </div>
       </div>
       <div class="rung lvl-onh " style="top:13.24%">
@@ -162,28 +187,28 @@
           <span class="rung-val">7714.00</span>
         </div>
       </div>
-      <div class="rung lvl-now rung-now" style="top:34.11%">
+      <div class="rung lvl-now rung-now" style="top:45.04%">
         <div class="rung-line"></div>
         <div class="rung-dot"></div>
         <div class="rung-tag lane-0">
           <span class="rung-key">NOW</span>
-          <span class="rung-val">7697.25</span>
+          <span class="rung-val">7690.75</span>
         </div>
       </div>
-      <div class="rung lvl-onl " style="top:80.22%">
+      <div class="rung lvl-onl " style="top:86.76%">
         <div class="rung-line"></div>
         <div class="rung-dot"></div>
-        <div class="rung-tag lane-0">
+        <div class="rung-tag lane-1">
           <span class="rung-key">ONL</span>
           <span class="rung-val">7660.25</span>
         </div>
       </div>
-      <div class="rung lvl-pdl " style="top:86.76%">
+      <div class="rung lvl-pdl " style="top:82.66%">
         <div class="rung-line"></div>
         <div class="rung-dot"></div>
-        <div class="rung-tag lane-1">
+        <div class="rung-tag lane-0">
           <span class="rung-key">PDL</span>
-          <span class="rung-val">7655.00</span>
+          <span class="rung-val">7663.25</span>
         </div>
       </div>
       </div>
@@ -192,12 +217,12 @@
 
   <section>
     <p class="section-label">Level Confluence</p>
-    <div class="chip-row"><div class="chip chip-confluence"><span class="chip-dot"></span>PDL &amp; ONL — 5.25 pts apart</div></div>
+    <div class="chip-row"><div class="chip chip-confluence"><span class="chip-dot"></span>PDL &amp; ONL — 3.00 pts apart</div></div>
   </section>
 
   <section>
     <p class="section-label">Pre-Market Breaks</p>
-    <div class="chip-row"><div class="chip chip-breakout">Trading ABOVE Previous Day High (7686.5)</div></div>
+    <div class="chip-row"><div class="chip chip-muted">Price is inside all four levels — nothing broken pre-market</div></div>
   </section>
 
   <section>
@@ -225,6 +250,6 @@
   </section>
 
   <footer>
-    Generated Aug 25, 2026, 9:34 AM ET from delayed market data · levels use RTH 9:30–16:00 ET and overnight 18:00–09:30 ET · informational only, not a trade signal or financial advice.
+    Generated Aug 25, 2026, 6:08 PM ET from delayed market data · levels use RTH 9:30–16:00 ET and overnight 18:00–09:30 ET · informational only, not a trade signal or financial advice.
   </footer>
 </div>

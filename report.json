@@ -1,31 +1,37 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-08-25T13:34:16.203Z",
-    "currentPrice": 7697.25,
-    "prevDate": "2026-08-24",
-    "PDH": 7686.5,
-    "PDL": 7655,
-    "prevClose": 7669.75,
+    "asOfUTC": "2026-08-25T22:08:55.607Z",
+    "currentPrice": 7690.75,
+    "prevDate": "2026-08-25",
+    "PDH": 7701.25,
+    "PDL": 7663.25,
+    "prevClose": 7691,
     "sessionDate": "2026-08-25",
     "ONH": 7714,
     "ONL": 7660.25,
     "currentOnRange": 53.75,
     "avgOnRange20": 71.9125,
     "onRangeSampleSize": 20,
-    "gapPoints": 27.5
+    "gapPoints": -0.25
   },
   "events": [],
   "clusters": [
     {
       "a": "PDL",
       "b": "ONL",
-      "distance": 5.25
+      "distance": 3
     }
   ],
   "threshold": 11,
   "rangeRead": "Normal",
-  "breakoutNotes": [
-    "Trading ABOVE Previous Day High (7686.5)"
-  ]
+  "breakoutNotes": [],
+  "verdict": {
+    "verdict": "FAVORABLE",
+    "verdictClass": "favorable",
+    "notes": [
+      "Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
+      "Overnight range is normal — no unusual skew toward either setup from range alone."
+    ]
+  }
 }
