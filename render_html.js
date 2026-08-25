@@ -4,7 +4,7 @@
 function fmt(n, d = 2) { return n == null ? "—" : n.toFixed(d); }
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 
-function buildDashboardHtml({ levels, events, clusters, threshold, rangeRead, breakoutNotes }) {
+function buildDashboardHtml({ levels, events, clusters, threshold, rangeRead, breakoutNotes, verdict }) {
   const { currentPrice, PDH, PDL, ONH, ONL, sessionDate, gapPoints, currentOnRange, avgOnRange20, onRangeSampleSize } = levels;
 
   // --- Ladder positions -----------------------------------------------
@@ -206,6 +206,20 @@ function buildDashboardHtml({ levels, events, clusters, threshold, rangeRead, br
 
   footer{ font-size:0.82rem; color:var(--ink-faint); line-height:1.6; border-top:1px solid var(--border); padding-top:1.25rem; }
   footer .stamp{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:0.75rem; }
+
+  /* ---- Verdict banner ---- */
+  .verdict{ border-radius:14px; padding:1.25rem 1.4rem; box-shadow:var(--shadow); margin-bottom:1.5rem; border:1px solid var(--border); }
+  .verdict-favorable{ background:var(--bull-bg); border-color:color-mix(in srgb, var(--bull) 35%, var(--border)); }
+  .verdict-mixed{ background:var(--warn-bg); border-color:color-mix(in srgb, var(--warn) 35%, var(--border)); }
+  .verdict-low{ background:var(--high-bg); border-color:color-mix(in srgb, var(--high) 35%, var(--border)); }
+  .verdict-head{ display:flex; align-items:center; gap:0.6rem; margin-bottom:0.55rem; }
+  .verdict-label{ font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.07em; color:var(--ink-faint); }
+  .verdict-title{ font-size:1.3rem; font-weight:700; letter-spacing:0.01em; }
+  .verdict-favorable .verdict-title{ color:var(--bull); }
+  .verdict-mixed .verdict-title{ color:var(--warn); }
+  .verdict-low .verdict-title{ color:var(--high); }
+  .verdict-notes{ margin:0; padding-left:1.1rem; display:flex; flex-direction:column; gap:0.35rem; font-size:0.9rem; color:var(--ink); line-height:1.45; }
+  .verdict-caveat{ margin:0.6rem 0 0; font-size:0.78rem; color:var(--ink-dim); font-style:italic; }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap">
 
@@ -215,6 +229,17 @@ function buildDashboardHtml({ levels, events, clusters, threshold, rangeRead, br
     <span class="ticker">ES / MES · CME</span>
   </div>
   <h2 class="session-date">${esc(sessionDateLong)}</h2>
+
+  <div class="verdict verdict-${verdict.verdictClass}">
+    <div class="verdict-head">
+      <span class="verdict-label">Today's Read</span>
+      <span class="verdict-title">${esc(verdict.verdict)}</span>
+    </div>
+    <ul class="verdict-notes">
+      ${verdict.notes.map(n => `<li>${esc(n)}</li>`).join("")}
+    </ul>
+    <p class="verdict-caveat">An environment read, not a trade call — both setups still require their full live sequence to confirm.</p>
+  </div>
 
   <div class="summary-bar">
     <div>

@@ -1,0 +1,40 @@
+name: Intraday level-touch alerts
+
+on:
+  schedule:
+    # Every 5 min, 13:00-16:00 UTC weekdays -- a wide window covering both
+    # EDT (9:30-11:30 ET = 13:30-15:30 UTC) and EST (9:30-11:30 ET =
+    # 14:30-16:30 UTC); check_levels.js itself narrows to the exact 9:30-11:30
+    # ET window and no-ops outside it, so this cron doesn't need DST upkeep.
+    - cron: "*/5 13-16 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Check levels and alert
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: node check_levels.js
+
+      - name: Commit alert state if changed
+        run: |
+          git config user.name "premarket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add alert_state.json
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Record level-touch alert $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

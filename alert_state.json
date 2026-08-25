@@ -1,0 +1,15 @@
+{
+  "sessionDate": "2026-08-25",
+  "levels": {
+    "PDH": 7701.25,
+    "PDL": 7663.25,
+    "ONH": 7714,
+    "ONL": 7660.25
+  },
+  "alerted": {
+    "PDH": false,
+    "PDL": false,
+    "ONH": false,
+    "ONL": false
+  }
+}

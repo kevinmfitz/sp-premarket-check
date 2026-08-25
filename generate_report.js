@@ -181,12 +181,60 @@ function levelsBeyondPrice(levels) {
 
 function fmt(n) { return n == null ? "n/a" : n.toFixed(2); }
 
+// Synthesizes the individual factors into one explicit read: FAVORABLE /
+// MIXED / LOW QUALITY, plus the 2-4 reasons behind it. This is a transparent
+// heuristic (not a backtested signal) meant to save the 30 seconds of
+// mentally combining the sections below -- it is never a substitute for the
+// live sequence confirming during the 9:30-11:30 window.
+function computeVerdict({ clusters, rangeRead, breakoutNotes, events }) {
+  const notes = [];
+  let score = 0;
+
+  if (clusters.length) {
+    score += 1;
+    notes.push(`Confluence: ${clusters.map(c => `${c.a}/${c.b}`).join(", ")} clustered — stronger, higher-conviction zone(s) today.`);
+  } else {
+    notes.push("No confluence — all four levels stand alone, each a bit weaker individually.");
+  }
+
+  if (rangeRead === "Tight") {
+    score -= 1;
+    notes.push("Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.");
+  } else if (rangeRead === "Wide") {
+    notes.push("Overnight range is wide — a lot already moved overnight; edge may favor Sweep & Reclaim (fade) over fresh Break & Hold continuation.");
+  } else {
+    score += 0.5;
+    notes.push("Overnight range is normal — no unusual skew toward either setup from range alone.");
+  }
+
+  if (breakoutNotes.length) {
+    notes.push(`Pre-market: ${breakoutNotes.join("; ")} — that level's sweep/break may already be in motion before the open.`);
+  }
+
+  const highImpact = events.filter(e => e.impact === "high");
+  if (highImpact.length) {
+    notes.push(`High-impact release(s) today (${highImpact.map(e => e.event).join(", ")}) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip.`);
+  }
+
+  let verdict, verdictClass;
+  if (rangeRead === "Tight" && !clusters.length) {
+    verdict = "LOW QUALITY"; verdictClass = "low";
+  } else if (score >= 1) {
+    verdict = "FAVORABLE"; verdictClass = "favorable";
+  } else {
+    verdict = "MIXED"; verdictClass = "mixed";
+  }
+
+  return { verdict, verdictClass, notes };
+}
+
 async function main() {
   const levels = await computeLevels();
   const events = loadCalendarEvents(levels.sessionDate);
   const { threshold, clusters } = findConfluence(levels);
   const rangeRead = classifyRange(levels.currentOnRange, levels.avgOnRange20);
   const breakoutNotes = levelsBeyondPrice(levels);
+  const verdict = computeVerdict({ clusters, rangeRead, breakoutNotes, events });
 
   const distTo = (lvl) => (lvl == null ? null : +(levels.currentPrice - lvl).toFixed(2));
 
@@ -194,6 +242,12 @@ async function main() {
   lines.push(`# S&P (ES/MES) Pre-Market Conditions — ${levels.sessionDate}`);
   lines.push("");
   lines.push(`_Generated ${new Date().toLocaleString("en-US", { timeZone: "America/New_York" })} ET · data as of last Yahoo Finance print, informational only, not a trade signal._`);
+  lines.push("");
+  lines.push(`## Today's Read: ${verdict.verdict}`);
+  lines.push("");
+  for (const n of verdict.notes) lines.push(`- ${n}`);
+  lines.push("");
+  lines.push("_This is an environment read, not a trade call — both setups still require their full live sequence to confirm._");
   lines.push("");
   lines.push("## Key Levels");
   lines.push("");
@@ -254,10 +308,20 @@ async function main() {
   lines.push("_Reminder: this is pre-market context only. Neither Sweep & Reclaim nor Break & Hold is confirmed until its full live sequence plays out (sweep→reclaim→structure break→retest, or break→acceptance→retest→hold→structure) during the 9:30-11:30 ET window. Trade only if the sequence actually shows up._");
 
   const md = lines.join("\n");
-  const reportData = { levels, events, clusters, threshold, rangeRead, breakoutNotes };
+  const reportData = { levels, events, clusters, threshold, rangeRead, breakoutNotes, verdict };
   fs.writeFileSync(path.join(__dirname, "report.md"), md);
   fs.writeFileSync(path.join(__dirname, "report.json"), JSON.stringify(reportData, null, 2));
   fs.writeFileSync(path.join(__dirname, "report.html"), buildDashboardHtml(reportData));
+
+  // Reset today's intraday level-touch alert state so check_levels.js
+  // (run every ~5 min by a separate GitHub Actions workflow) starts fresh.
+  const alertState = {
+    sessionDate: levels.sessionDate,
+    levels: { PDH: levels.PDH, PDL: levels.PDL, ONH: levels.ONH, ONL: levels.ONL },
+    alerted: { PDH: false, PDL: false, ONH: false, ONL: false },
+  };
+  fs.writeFileSync(path.join(__dirname, "alert_state.json"), JSON.stringify(alertState, null, 2));
+
   console.log(md);
 }
 
