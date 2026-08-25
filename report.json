@@ -1,34 +1,31 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-08-24T23:25:48.375Z",
-    "currentPrice": 7675.5,
+    "asOfUTC": "2026-08-25T13:34:16.203Z",
+    "currentPrice": 7697.25,
     "prevDate": "2026-08-24",
     "PDH": 7686.5,
     "PDL": 7655,
     "prevClose": 7669.75,
     "sessionDate": "2026-08-25",
-    "ONH": 7677.5,
-    "ONL": 7673.25,
-    "currentOnRange": 4.25,
+    "ONH": 7714,
+    "ONL": 7660.25,
+    "currentOnRange": 53.75,
     "avgOnRange20": 71.9125,
     "onRangeSampleSize": 20,
-    "gapPoints": 5.75
+    "gapPoints": 27.5
   },
   "events": [],
   "clusters": [
     {
-      "a": "PDH",
-      "b": "ONH",
-      "distance": 9
-    },
-    {
-      "a": "ONH",
+      "a": "PDL",
       "b": "ONL",
-      "distance": 4.25
+      "distance": 5.25
     }
   ],
   "threshold": 11,
-  "rangeRead": "Tight",
-  "breakoutNotes": []
+  "rangeRead": "Normal",
+  "breakoutNotes": [
+    "Trading ABOVE Previous Day High (7686.5)"
+  ]
 }
