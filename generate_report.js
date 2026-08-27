@@ -313,12 +313,15 @@ async function main() {
   fs.writeFileSync(path.join(__dirname, "report.json"), JSON.stringify(reportData, null, 2));
   fs.writeFileSync(path.join(__dirname, "report.html"), buildDashboardHtml(reportData));
 
-  // Reset today's intraday level-touch alert state so check_levels.js
+  // Reset today's intraday setup-forming watcher state so check_levels.js
   // (run every ~5 min by a separate GitHub Actions workflow) starts fresh.
+  // Each level tracks: none -> broken -> reclaimed | accepted (see
+  // check_levels.js for what each status means and when it's emailed).
+  const freshLevelState = () => ({ status: "none", brokenAt: null });
   const alertState = {
     sessionDate: levels.sessionDate,
     levels: { PDH: levels.PDH, PDL: levels.PDL, ONH: levels.ONH, ONL: levels.ONL },
-    alerted: { PDH: false, PDL: false, ONH: false, ONL: false },
+    state: { PDH: freshLevelState(), PDL: freshLevelState(), ONH: freshLevelState(), ONL: freshLevelState() },
   };
   fs.writeFileSync(path.join(__dirname, "alert_state.json"), JSON.stringify(alertState, null, 2));
 

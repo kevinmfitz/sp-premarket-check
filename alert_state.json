@@ -1,15 +1,27 @@
 {
-  "sessionDate": "2026-08-27",
+  "sessionDate": "2026-08-28",
   "levels": {
     "PDH": 7755.5,
     "PDL": 7702.75,
-    "ONH": 7743.25,
-    "ONL": 7707
+    "ONH": 7734.75,
+    "ONL": 7727.5
   },
-  "alerted": {
-    "PDH": false,
-    "PDL": false,
-    "ONH": false,
-    "ONL": false
+  "state": {
+    "PDH": {
+      "status": "none",
+      "brokenAt": null
+    },
+    "PDL": {
+      "status": "none",
+      "brokenAt": null
+    },
+    "ONH": {
+      "status": "none",
+      "brokenAt": null
+    },
+    "ONL": {
+      "status": "none",
+      "brokenAt": null
+    }
   }
 }
