@@ -2,14 +2,19 @@ name: Generate pre-market report
 
 on:
   schedule:
-    # 12:00 UTC = 8:00 AM ET during EDT (UTC-4). During EST (UTC-5, roughly
-    # early Nov - mid Mar) this runs at 7:00 AM ET instead -- earlier is fine,
-    # it just means more lead time. Scheduled GitHub Actions runs are not
-    # guaranteed to fire on time -- delays of 10-60+ min are a known GitHub
-    # limitation, not a bug here (observed a 54-min delay on 2026-08-26) --
-    # so this is set with a generous 90-min buffer before the 9:30 ET open,
-    # and the Claude routine that consumes this also retries if it's stale.
+    # GitHub's `schedule` trigger is best-effort, not guaranteed: runs can be
+    # delayed 10-60+ min under load (observed 54 min on 2026-08-26), or
+    # dropped entirely (observed a full no-show on 2026-08-27, first day
+    # after editing this file's cron -- possibly the documented "editing the
+    # workflow resets the schedule" behavior, possibly just load-shedding).
+    # Mitigation: three independent attempts spread across the morning
+    # instead of relying on one. 12:00/12:20/12:40 UTC = 8:00/8:20/8:40 AM ET
+    # during EDT (7:00/7:20/7:40 ET during EST) -- all well before the 9:30
+    # open, and each is a full independent run (the second/third just
+    # re-generate with the freshest data if the first already succeeded).
     - cron: "0 12 * * 1-5"
+    - cron: "20 12 * * 1-5"
+    - cron: "40 12 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
