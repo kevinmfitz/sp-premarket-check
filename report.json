@@ -1,37 +1,37 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-08-27T21:24:50.287Z",
-    "currentPrice": 7733,
-    "prevDate": "2026-08-27",
-    "PDH": 7755.5,
-    "PDL": 7702.75,
-    "prevClose": 7741.25,
-    "sessionDate": "2026-08-27",
-    "ONH": 7743.25,
-    "ONL": 7707,
-    "currentOnRange": 36.25,
-    "avgOnRange20": 64.975,
+    "asOfUTC": "2026-08-28T21:35:01.471Z",
+    "currentPrice": 7724.75,
+    "prevDate": "2026-08-28",
+    "PDH": 7782.5,
+    "PDL": 7711.75,
+    "prevClose": 7722.75,
+    "sessionDate": "2026-08-28",
+    "ONH": 7755,
+    "ONL": 7719,
+    "currentOnRange": 36,
+    "avgOnRange20": 58.4375,
     "onRangeSampleSize": 20,
-    "gapPoints": -8.25
+    "gapPoints": 2
   },
   "events": [],
   "clusters": [
     {
       "a": "PDL",
       "b": "ONL",
-      "distance": 4.25
+      "distance": 7.25
     }
   ],
-  "threshold": 10,
-  "rangeRead": "Tight",
+  "threshold": 9,
+  "rangeRead": "Normal",
   "breakoutNotes": [],
   "verdict": {
-    "verdict": "MIXED",
-    "verdictClass": "mixed",
+    "verdict": "FAVORABLE",
+    "verdictClass": "favorable",
     "notes": [
       "Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
-      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk."
+      "Overnight range is normal — no unusual skew toward either setup from range alone."
     ]
   }
 }
