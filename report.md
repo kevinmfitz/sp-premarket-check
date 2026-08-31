@@ -1,11 +1,12 @@
-# S&P (ES/MES) Pre-Market Conditions — 2026-08-28
+# S&P (ES/MES) Pre-Market Conditions — 2026-08-31
 
-_Generated 8/28/2026, 6:36:38 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 8/31/2026, 2:23:22 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: FAVORABLE
 
-- Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.
+- Confluence: PDL/ONH clustered — stronger, higher-conviction zone(s) today.
 - Overnight range is normal — no unusual skew toward either setup from range alone.
+- Pre-market: Trading BELOW Previous Day Low (7711.75) — that level's sweep/break may already be in motion before the open.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -13,26 +14,27 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7724.75 | — |
-| Previous Day High (PDH) | 7782.50 | -57.75 |
-| Previous Day Low (PDL) | 7711.75 | 13.00 |
-| Overnight High (ONH) | 7755.00 | -30.25 |
-| Overnight Low (ONL) | 7719.00 | 5.75 |
+| Current (ES) | 7693.00 | — |
+| Previous Day High (PDH) | 7782.50 | -89.50 |
+| Previous Day Low (PDL) | 7711.75 | -18.75 |
+| Overnight High (ONH) | 7718.50 | -25.50 |
+| Overnight Low (ONL) | 7683.75 | 9.25 |
 
 ## Level Confluence
 
 Levels within 9 pts of each other (stronger, higher-conviction zones):
 
-- **PDL & ONL** are only 7.25 pts apart — a cluster worth weighting more.
+- **PDL & ONH** are only 6.75 pts apart — a cluster worth weighting more.
 
 ## Overnight Range
 
-Overnight range: **36.00 pts** vs. 20-session average of **58.44 pts** → **Normal**.
+Overnight range: **34.75 pts** vs. 20-session average of **57.26 pts** → **Normal**.
 
 ## Gap
 
-Current price is **+2.00 pts** vs. previous RTH close (7722.75).
-- Price is currently inside all four levels (no level broken pre-market).
+Current price is **-29.75 pts** vs. previous RTH close (7722.75).
+
+- Trading BELOW Previous Day Low (7711.75)
 
 ## Economic Calendar Today
 
