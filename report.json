@@ -1,40 +1,40 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-08-31T19:13:44.822Z",
-    "currentPrice": 7686.75,
-    "prevDate": "2026-08-28",
-    "PDH": 7782.5,
-    "PDL": 7711.75,
-    "prevClose": 7722.75,
-    "sessionDate": "2026-08-31",
-    "ONH": 7718.5,
-    "ONL": 7683.75,
-    "currentOnRange": 34.75,
-    "avgOnRange20": 57.2625,
+    "asOfUTC": "2026-09-01T15:43:46.451Z",
+    "currentPrice": 7663.25,
+    "prevDate": "2026-08-31",
+    "PDH": 7708.25,
+    "PDL": 7674.75,
+    "prevClose": 7697.75,
+    "sessionDate": "2026-09-01",
+    "ONH": 7708,
+    "ONL": 7640.5,
+    "currentOnRange": 67.5,
+    "avgOnRange20": 54.35,
     "onRangeSampleSize": 20,
-    "gapPoints": -36
+    "gapPoints": -34.5
   },
   "events": [],
   "clusters": [
     {
-      "a": "PDL",
+      "a": "PDH",
       "b": "ONH",
-      "distance": 6.75
+      "distance": 0.25
     }
   ],
-  "threshold": 9,
+  "threshold": 8,
   "rangeRead": "Normal",
   "breakoutNotes": [
-    "Trading BELOW Previous Day Low (7711.75)"
+    "Trading BELOW Previous Day Low (7674.75)"
   ],
   "verdict": {
     "verdict": "FAVORABLE",
     "verdictClass": "favorable",
     "notes": [
-      "Confluence: PDL/ONH clustered — stronger, higher-conviction zone(s) today.",
+      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
       "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading BELOW Previous Day Low (7711.75) — that level's sweep/break may already be in motion before the open."
+      "Pre-market: Trading BELOW Previous Day Low (7674.75) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
