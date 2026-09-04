@@ -1,35 +1,48 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-09-03T16:39:56.336Z",
-    "currentPrice": 7750.5,
-    "prevDate": "2026-09-02",
-    "PDH": 7691.25,
-    "PDL": 7643,
-    "prevClose": 7678.25,
-    "sessionDate": "2026-09-03",
-    "ONH": 7706.25,
-    "ONL": 7661.25,
-    "currentOnRange": 45,
-    "avgOnRange20": 50.1375,
+    "asOfUTC": "2026-09-04T15:23:17.289Z",
+    "currentPrice": 7720,
+    "prevDate": "2026-09-03",
+    "PDH": 7766.5,
+    "PDL": 7700,
+    "prevClose": 7756,
+    "sessionDate": "2026-09-04",
+    "ONH": 7764.5,
+    "ONL": 7731.25,
+    "currentOnRange": 33.25,
+    "avgOnRange20": 52.775,
     "onRangeSampleSize": 20,
-    "gapPoints": 72.25
+    "gapPoints": -36
   },
-  "events": [],
-  "clusters": [],
+  "events": [
+    {
+      "date": "2026-09-04",
+      "event": "Employment Situation (NFP)",
+      "time": "08:30 ET",
+      "impact": "high"
+    }
+  ],
+  "clusters": [
+    {
+      "a": "PDH",
+      "b": "ONH",
+      "distance": 2
+    }
+  ],
   "threshold": 8,
   "rangeRead": "Normal",
   "breakoutNotes": [
-    "Trading ABOVE Overnight High (7706.25)",
-    "Trading ABOVE Previous Day High (7691.25)"
+    "Trading BELOW Overnight Low (7731.25)"
   ],
   "verdict": {
-    "verdict": "MIXED",
-    "verdictClass": "mixed",
+    "verdict": "FAVORABLE",
+    "verdictClass": "favorable",
     "notes": [
-      "No confluence — all four levels stand alone, each a bit weaker individually.",
+      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
       "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading ABOVE Overnight High (7706.25); Trading ABOVE Previous Day High (7691.25) — that level's sweep/break may already be in motion before the open."
+      "Pre-market: Trading BELOW Overnight Low (7731.25) — that level's sweep/break may already be in motion before the open.",
+      "High-impact release(s) today (Employment Situation (NFP)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
     ]
   }
 }
