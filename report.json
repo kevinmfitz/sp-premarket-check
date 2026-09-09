@@ -1,26 +1,27 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-09-08T16:49:53.880Z",
-    "currentPrice": 7690.25,
-    "prevDate": "2026-09-04",
-    "PDH": 7751,
-    "PDL": 7711.75,
-    "prevClose": 7723.75,
-    "sessionDate": "2026-09-08",
-    "ONH": 7725.75,
-    "ONL": 7687.5,
-    "currentOnRange": 38.25,
-    "avgOnRange20": 52.525,
+    "asOfUTC": "2026-09-09T15:31:04.875Z",
+    "currentPrice": 7639.5,
+    "prevDate": "2026-09-08",
+    "PDH": 7717.75,
+    "PDL": 7672.25,
+    "prevClose": 7681,
+    "sessionDate": "2026-09-09",
+    "ONH": 7691.25,
+    "ONL": 7644.5,
+    "currentOnRange": 46.75,
+    "avgOnRange20": 53.4625,
     "onRangeSampleSize": 20,
-    "gapPoints": -33.5
+    "gapPoints": -41.5
   },
   "events": [],
   "clusters": [],
   "threshold": 8,
   "rangeRead": "Normal",
   "breakoutNotes": [
-    "Trading BELOW Previous Day Low (7711.75)"
+    "Trading BELOW Overnight Low (7644.5)",
+    "Trading BELOW Previous Day Low (7672.25)"
   ],
   "verdict": {
     "verdict": "MIXED",
@@ -28,7 +29,7 @@
     "notes": [
       "No confluence — all four levels stand alone, each a bit weaker individually.",
       "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading BELOW Previous Day Low (7711.75) — that level's sweep/break may already be in motion before the open."
+      "Pre-market: Trading BELOW Overnight Low (7644.5); Trading BELOW Previous Day Low (7672.25) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
