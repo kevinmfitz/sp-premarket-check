@@ -1,31 +1,51 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-09-15T17:14:47.681Z",
-    "currentPrice": 7654.5,
-    "prevDate": "2026-09-14",
-    "PDH": 7719.75,
-    "PDL": 7595.25,
-    "prevClose": 7692.5,
-    "sessionDate": "2026-09-15",
-    "ONH": 7701,
-    "ONL": 7645,
-    "currentOnRange": 56,
-    "avgOnRange20": 59.8625,
+    "asOfUTC": "2026-09-16T15:44:17.186Z",
+    "currentPrice": 7683.25,
+    "prevDate": "2026-09-15",
+    "PDH": 7687,
+    "PDL": 7643.5,
+    "prevClose": 7656.75,
+    "sessionDate": "2026-09-16",
+    "ONH": 7689.25,
+    "ONL": 7658.75,
+    "currentOnRange": 30.5,
+    "avgOnRange20": 59.6125,
     "onRangeSampleSize": 20,
-    "gapPoints": -38
+    "gapPoints": 26.5
   },
-  "events": [],
-  "clusters": [],
+  "events": [
+    {
+      "date": "2026-09-16",
+      "event": "FOMC Rate Decision + SEP/Dot Plot",
+      "time": "14:00 ET",
+      "impact": "high"
+    },
+    {
+      "date": "2026-09-16",
+      "event": "Retail Sales",
+      "time": "08:30 ET",
+      "impact": "medium"
+    }
+  ],
+  "clusters": [
+    {
+      "a": "PDH",
+      "b": "ONH",
+      "distance": 2.25
+    }
+  ],
   "threshold": 9,
-  "rangeRead": "Normal",
+  "rangeRead": "Tight",
   "breakoutNotes": [],
   "verdict": {
     "verdict": "MIXED",
     "verdictClass": "mixed",
     "notes": [
-      "No confluence — all four levels stand alone, each a bit weaker individually.",
-      "Overnight range is normal — no unusual skew toward either setup from range alone."
+      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
+      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
+      "High-impact release(s) today (FOMC Rate Decision + SEP/Dot Plot) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
     ]
   }
 }
