@@ -1,6 +1,6 @@
 # S&P (ES/MES) Pre-Market Conditions — 2026-09-17
 
-_Generated 9/17/2026, 1:07:10 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 9/17/2026, 1:14:47 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: MIXED
 
@@ -14,11 +14,11 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7700.00 | — |
-| Previous Day High (PDH) | 7699.00 | 1.00 |
-| Previous Day Low (PDL) | 7575.00 | 125.00 |
-| Overnight High (ONH) | 7722.25 | -22.25 |
-| Overnight Low (ONL) | 7617.50 | 82.50 |
+| Current (ES) | 7706.50 | — |
+| Previous Day High (PDH) | 7699.00 | 7.50 |
+| Previous Day Low (PDL) | 7575.00 | 131.50 |
+| Overnight High (ONH) | 7722.25 | -15.75 |
+| Overnight Low (ONL) | 7617.50 | 89.00 |
 
 ## Level Confluence
 
@@ -31,7 +31,7 @@ _Wide range = a lot has already happened overnight; a reversal (Sweep & Reclaim)
 
 ## Gap
 
-Current price is **+77.75 pts** vs. previous RTH close (7622.25).
+Current price is **+84.25 pts** vs. previous RTH close (7622.25).
 
 - Trading ABOVE Previous Day High (7699)
 
