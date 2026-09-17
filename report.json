@@ -1,8 +1,8 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-09-17T15:50:35.251Z",
-    "currentPrice": 7701.25,
+    "asOfUTC": "2026-09-17T17:07:10.290Z",
+    "currentPrice": 7700,
     "prevDate": "2026-09-16",
     "PDH": 7699,
     "PDL": 7575,
@@ -13,7 +13,7 @@
     "currentOnRange": 104.75,
     "avgOnRange20": 60.25,
     "onRangeSampleSize": 20,
-    "gapPoints": 79
+    "gapPoints": 77.75
   },
   "events": [],
   "clusters": [],
