@@ -1,51 +1,34 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-09-16T17:15:39.820Z",
-    "currentPrice": 7675.75,
-    "prevDate": "2026-09-15",
-    "PDH": 7687,
-    "PDL": 7643.5,
-    "prevClose": 7656.75,
-    "sessionDate": "2026-09-16",
-    "ONH": 7689.25,
-    "ONL": 7658.75,
-    "currentOnRange": 30.5,
-    "avgOnRange20": 59.6125,
+    "asOfUTC": "2026-09-17T15:50:35.251Z",
+    "currentPrice": 7701.25,
+    "prevDate": "2026-09-16",
+    "PDH": 7699,
+    "PDL": 7575,
+    "prevClose": 7622.25,
+    "sessionDate": "2026-09-17",
+    "ONH": 7722.25,
+    "ONL": 7617.5,
+    "currentOnRange": 104.75,
+    "avgOnRange20": 60.25,
     "onRangeSampleSize": 20,
-    "gapPoints": 19
+    "gapPoints": 79
   },
-  "events": [
-    {
-      "date": "2026-09-16",
-      "event": "FOMC Rate Decision + SEP/Dot Plot",
-      "time": "14:00 ET",
-      "impact": "high"
-    },
-    {
-      "date": "2026-09-16",
-      "event": "Retail Sales",
-      "time": "08:30 ET",
-      "impact": "medium"
-    }
-  ],
-  "clusters": [
-    {
-      "a": "PDH",
-      "b": "ONH",
-      "distance": 2.25
-    }
-  ],
+  "events": [],
+  "clusters": [],
   "threshold": 9,
-  "rangeRead": "Tight",
-  "breakoutNotes": [],
+  "rangeRead": "Wide",
+  "breakoutNotes": [
+    "Trading ABOVE Previous Day High (7699)"
+  ],
   "verdict": {
     "verdict": "MIXED",
     "verdictClass": "mixed",
     "notes": [
-      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
-      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
-      "High-impact release(s) today (FOMC Rate Decision + SEP/Dot Plot) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
+      "No confluence — all four levels stand alone, each a bit weaker individually.",
+      "Overnight range is wide — a lot already moved overnight; edge may favor Sweep & Reclaim (fade) over fresh Break & Hold continuation.",
+      "Pre-market: Trading ABOVE Previous Day High (7699) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
