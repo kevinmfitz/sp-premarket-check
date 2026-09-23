@@ -1,37 +1,46 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-09-22T17:15:11.777Z",
-    "currentPrice": 7830,
-    "prevDate": "2026-09-21",
-    "PDH": 7847.25,
-    "PDL": 7758.25,
-    "prevClose": 7833.25,
-    "sessionDate": "2026-09-22",
-    "ONH": 7843.75,
-    "ONL": 7810.5,
-    "currentOnRange": 33.25,
-    "avgOnRange20": 63.9125,
+    "asOfUTC": "2026-09-23T15:44:24.804Z",
+    "currentPrice": 7784.75,
+    "prevDate": "2026-09-22",
+    "PDH": 7848.5,
+    "PDL": 7822.25,
+    "prevClose": 7831,
+    "sessionDate": "2026-09-23",
+    "ONH": 7843.25,
+    "ONL": 7818.75,
+    "currentOnRange": 24.5,
+    "avgOnRange20": 63.6375,
     "onRangeSampleSize": 20,
-    "gapPoints": -3.25
+    "gapPoints": -46.25
   },
   "events": [],
   "clusters": [
     {
       "a": "PDH",
       "b": "ONH",
+      "distance": 5.25
+    },
+    {
+      "a": "PDL",
+      "b": "ONL",
       "distance": 3.5
     }
   ],
   "threshold": 10,
   "rangeRead": "Tight",
-  "breakoutNotes": [],
+  "breakoutNotes": [
+    "Trading BELOW Overnight Low (7818.75)",
+    "Trading BELOW Previous Day Low (7822.25)"
+  ],
   "verdict": {
     "verdict": "MIXED",
     "verdictClass": "mixed",
     "notes": [
-      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
-      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk."
+      "Confluence: PDH/ONH, PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
+      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
+      "Pre-market: Trading BELOW Overnight Low (7818.75); Trading BELOW Previous Day Low (7822.25) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
