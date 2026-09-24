@@ -1,8 +1,8 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-09-24T16:05:44.789Z",
-    "currentPrice": 7735.75,
+    "asOfUTC": "2026-09-24T17:18:29.077Z",
+    "currentPrice": 7776,
     "prevDate": "2026-09-23",
     "PDH": 7826.25,
     "PDL": 7758.75,
@@ -13,22 +13,19 @@
     "currentOnRange": 72,
     "avgOnRange20": 64.6,
     "onRangeSampleSize": 20,
-    "gapPoints": -38
+    "gapPoints": 2.25
   },
   "events": [],
   "clusters": [],
   "threshold": 10,
   "rangeRead": "Normal",
-  "breakoutNotes": [
-    "Trading BELOW Previous Day Low (7758.75)"
-  ],
+  "breakoutNotes": [],
   "verdict": {
     "verdict": "MIXED",
     "verdictClass": "mixed",
     "notes": [
       "No confluence — all four levels stand alone, each a bit weaker individually.",
-      "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading BELOW Previous Day Low (7758.75) — that level's sweep/break may already be in motion before the open."
+      "Overnight range is normal — no unusual skew toward either setup from range alone."
     ]
   }
 }
