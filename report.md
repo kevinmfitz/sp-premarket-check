@@ -1,6 +1,6 @@
-# S&P (ES/MES) Pre-Market Conditions — 2026-09-24
+# S&P (ES/MES) Pre-Market Conditions — 2026-09-25
 
-_Generated 9/24/2026, 1:31:16 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 9/25/2026, 12:06:24 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: MIXED
 
@@ -13,11 +13,11 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7768.00 | — |
-| Previous Day High (PDH) | 7826.25 | -58.25 |
-| Previous Day Low (PDL) | 7758.75 | 9.25 |
-| Overnight High (ONH) | 7779.25 | -11.25 |
-| Overnight Low (ONL) | 7707.25 | 60.75 |
+| Current (ES) | 7776.50 | — |
+| Previous Day High (PDH) | 7783.50 | -7.00 |
+| Previous Day Low (PDL) | 7725.25 | 51.25 |
+| Overnight High (ONH) | 7800.75 | -24.25 |
+| Overnight Low (ONL) | 7748.50 | 28.00 |
 
 ## Level Confluence
 
@@ -25,11 +25,11 @@ No levels within 10 pts of each other — all four levels are distinct today (no
 
 ## Overnight Range
 
-Overnight range: **72.00 pts** vs. 20-session average of **64.60 pts** → **Normal**.
+Overnight range: **52.25 pts** vs. 20-session average of **66.22 pts** → **Normal**.
 
 ## Gap
 
-Current price is **-5.75 pts** vs. previous RTH close (7773.75).
+Current price is **+11.00 pts** vs. previous RTH close (7765.50).
 - Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
