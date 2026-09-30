@@ -1,32 +1,39 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-09-29T18:14:01.258Z",
-    "currentPrice": 7723.25,
-    "prevDate": "2026-09-28",
-    "PDH": 7786.25,
-    "PDL": 7726,
-    "prevClose": 7746.5,
-    "sessionDate": "2026-09-29",
-    "ONH": 7770.75,
-    "ONL": 7716,
-    "currentOnRange": 54.75,
-    "avgOnRange20": 68.1375,
+    "asOfUTC": "2026-09-30T17:11:24.092Z",
+    "currentPrice": 7770.5,
+    "prevDate": "2026-09-29",
+    "PDH": 7758.5,
+    "PDL": 7712.25,
+    "prevClose": 7732.5,
+    "sessionDate": "2026-09-30",
+    "ONH": 7771.25,
+    "ONL": 7719.5,
+    "currentOnRange": 51.75,
+    "avgOnRange20": 69.1375,
     "onRangeSampleSize": 20,
-    "gapPoints": -23.25
+    "gapPoints": 38
   },
-  "events": [],
+  "events": [
+    {
+      "date": "2026-09-30",
+      "event": "GDP / Personal Income & Outlays (PCE)",
+      "time": "08:30 ET",
+      "impact": "high"
+    }
+  ],
   "clusters": [
     {
       "a": "PDL",
       "b": "ONL",
-      "distance": 10
+      "distance": 7.25
     }
   ],
   "threshold": 10,
   "rangeRead": "Normal",
   "breakoutNotes": [
-    "Trading BELOW Previous Day Low (7726)"
+    "Trading ABOVE Previous Day High (7758.5)"
   ],
   "verdict": {
     "verdict": "FAVORABLE",
@@ -34,7 +41,8 @@
     "notes": [
       "Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
       "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading BELOW Previous Day Low (7726) — that level's sweep/break may already be in motion before the open."
+      "Pre-market: Trading ABOVE Previous Day High (7758.5) — that level's sweep/break may already be in motion before the open.",
+      "High-impact release(s) today (GDP / Personal Income & Outlays (PCE)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
     ]
   }
 }
