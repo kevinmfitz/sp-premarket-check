@@ -1,42 +1,41 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-10-02T18:01:08.380Z",
-    "currentPrice": 7776,
-    "prevDate": "2026-10-01",
-    "PDH": 7741.25,
-    "PDL": 7672.75,
-    "prevClose": 7726.25,
-    "sessionDate": "2026-10-02",
-    "ONH": 7802.75,
-    "ONL": 7723.25,
-    "currentOnRange": 79.5,
-    "avgOnRange20": 68.9875,
-    "onRangeSampleSize": 20,
-    "gapPoints": 49.75
+    "asOfUTC": "2026-10-05T19:54:39.455Z",
+    "currentPrice": 7836.75,
+    "prevDate": "2026-10-02",
+    "PDH": 7810.25,
+    "PDL": 7754,
+    "prevClose": 7779,
+    "sessionDate": "2026-10-05",
+    "ONH": 7793,
+    "ONL": 7760.25,
+    "currentOnRange": 32.75,
+    "avgOnRange20": 69.09210526315789,
+    "onRangeSampleSize": 19,
+    "gapPoints": 57.75
   },
-  "events": [
+  "events": [],
+  "clusters": [
     {
-      "date": "2026-10-02",
-      "event": "Employment Situation (NFP)",
-      "time": "08:30 ET",
-      "impact": "high"
+      "a": "PDL",
+      "b": "ONL",
+      "distance": 6.25
     }
   ],
-  "clusters": [],
   "threshold": 10,
-  "rangeRead": "Normal",
+  "rangeRead": "Tight",
   "breakoutNotes": [
-    "Trading ABOVE Previous Day High (7741.25)"
+    "Trading ABOVE Overnight High (7793)",
+    "Trading ABOVE Previous Day High (7810.25)"
   ],
   "verdict": {
     "verdict": "MIXED",
     "verdictClass": "mixed",
     "notes": [
-      "No confluence — all four levels stand alone, each a bit weaker individually.",
-      "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading ABOVE Previous Day High (7741.25) — that level's sweep/break may already be in motion before the open.",
-      "High-impact release(s) today (Employment Situation (NFP)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
+      "Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
+      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
+      "Pre-market: Trading ABOVE Overnight High (7793); Trading ABOVE Previous Day High (7810.25) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
