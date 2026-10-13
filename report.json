@@ -1,36 +1,36 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-10-12T21:23:39.783Z",
-    "currentPrice": 7857,
+    "asOfUTC": "2026-10-13T18:38:17.922Z",
+    "currentPrice": 7853.5,
     "prevDate": "2026-10-12",
     "PDH": 7870,
     "PDL": 7846.25,
     "prevClose": 7856.75,
-    "sessionDate": "2026-10-12",
-    "ONH": 7887,
-    "ONL": 7854,
-    "currentOnRange": 33,
-    "avgOnRange20": 66.675,
+    "sessionDate": "2026-10-13",
+    "ONH": 7864,
+    "ONL": 7836,
+    "currentOnRange": 28,
+    "avgOnRange20": 63,
     "onRangeSampleSize": 20,
-    "gapPoints": 0.25
+    "gapPoints": -3.25
   },
   "events": [],
   "clusters": [
     {
-      "a": "PDL",
-      "b": "ONL",
-      "distance": 7.75
+      "a": "PDH",
+      "b": "ONH",
+      "distance": 6
     }
   ],
-  "threshold": 10,
+  "threshold": 9,
   "rangeRead": "Tight",
   "breakoutNotes": [],
   "verdict": {
     "verdict": "MIXED",
     "verdictClass": "mixed",
     "notes": [
-      "Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
+      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
       "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk."
     ]
   }

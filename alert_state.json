@@ -1,10 +1,10 @@
 {
-  "sessionDate": "2026-10-12",
+  "sessionDate": "2026-10-13",
   "levels": {
     "PDH": 7870,
     "PDL": 7846.25,
-    "ONH": 7887,
-    "ONL": 7854
+    "ONH": 7864,
+    "ONL": 7836
   },
   "state": {
     "PDH": {
