@@ -1,13 +1,12 @@
-# S&P (ES/MES) Pre-Market Conditions — 2026-10-14
+# S&P (ES/MES) Pre-Market Conditions — 2026-10-15
 
-_Generated 10/14/2026, 1:34:23 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 10/15/2026, 11:56:04 AM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: MIXED
 
 - No confluence — all four levels stand alone, each a bit weaker individually.
 - Overnight range is normal — no unusual skew toward either setup from range alone.
-- Pre-market: Trading BELOW Overnight Low (7821.25); Trading BELOW Previous Day Low (7834.5) — that level's sweep/break may already be in motion before the open.
-- High-impact release(s) today (CPI) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip.
+- Pre-market: Trading ABOVE Overnight High (7769.5) — that level's sweep/break may already be in motion before the open.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -15,30 +14,30 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7764.25 | — |
-| Previous Day High (PDH) | 7863.25 | -99.00 |
-| Previous Day Low (PDL) | 7834.50 | -70.25 |
-| Overnight High (ONH) | 7879.75 | -115.50 |
-| Overnight Low (ONL) | 7821.25 | -57.00 |
+| Current (ES) | 7772.25 | — |
+| Previous Day High (PDH) | 7837.75 | -65.50 |
+| Previous Day Low (PDL) | 7741.00 | 31.25 |
+| Overnight High (ONH) | 7769.50 | 2.75 |
+| Overnight Low (ONL) | 7728.75 | 43.50 |
 
 ## Level Confluence
 
-No levels within 9 pts of each other — all four levels are distinct today (no confluence zone).
+No levels within 10 pts of each other — all four levels are distinct today (no confluence zone).
 
 ## Overnight Range
 
-Overnight range: **58.50 pts** vs. 20-session average of **61.60 pts** → **Normal**.
+Overnight range: **40.75 pts** vs. 20-session average of **63.86 pts** → **Normal**.
 
 ## Gap
 
-Current price is **-92.00 pts** vs. previous RTH close (7856.25).
+Current price is **+0.50 pts** vs. previous RTH close (7771.75).
 
-- Trading BELOW Overnight Low (7821.25)
-- Trading BELOW Previous Day Low (7834.5)
+- Trading ABOVE Overnight High (7769.5)
 
 ## Economic Calendar Today
 
-- **08:30 ET** — CPI (high impact)
+- **08:30 ET** — PPI (medium impact)
+- **08:30 ET** — Retail Sales (medium impact)
 
 _High-impact releases at/near 8:30 ET often ARE the catalyst for the initial ONH/ONL sweep right at the open — expect more noise, not necessarily a reason to skip._
 
