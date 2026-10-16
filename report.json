@@ -1,47 +1,40 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-10-15T17:19:17.561Z",
-    "currentPrice": 7773.75,
-    "prevDate": "2026-10-14",
-    "PDH": 7837.75,
-    "PDL": 7741,
-    "prevClose": 7771.75,
-    "sessionDate": "2026-10-15",
-    "ONH": 7769.5,
-    "ONL": 7728.75,
-    "currentOnRange": 40.75,
-    "avgOnRange20": 63.8625,
+    "asOfUTC": "2026-10-16T15:44:10.045Z",
+    "currentPrice": 7761.25,
+    "prevDate": "2026-10-15",
+    "PDH": 7801.75,
+    "PDL": 7717.25,
+    "prevClose": 7791,
+    "sessionDate": "2026-10-16",
+    "ONH": 7809.5,
+    "ONL": 7774.75,
+    "currentOnRange": 34.75,
+    "avgOnRange20": 61.9375,
     "onRangeSampleSize": 20,
-    "gapPoints": 2
+    "gapPoints": -29.75
   },
-  "events": [
+  "events": [],
+  "clusters": [
     {
-      "date": "2026-10-15",
-      "event": "PPI",
-      "time": "08:30 ET",
-      "impact": "medium"
-    },
-    {
-      "date": "2026-10-15",
-      "event": "Retail Sales",
-      "time": "08:30 ET",
-      "impact": "medium"
+      "a": "PDH",
+      "b": "ONH",
+      "distance": 7.75
     }
   ],
-  "clusters": [],
-  "threshold": 10,
-  "rangeRead": "Normal",
+  "threshold": 9,
+  "rangeRead": "Tight",
   "breakoutNotes": [
-    "Trading ABOVE Overnight High (7769.5)"
+    "Trading BELOW Overnight Low (7774.75)"
   ],
   "verdict": {
     "verdict": "MIXED",
     "verdictClass": "mixed",
     "notes": [
-      "No confluence — all four levels stand alone, each a bit weaker individually.",
-      "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading ABOVE Overnight High (7769.5) — that level's sweep/break may already be in motion before the open."
+      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
+      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
+      "Pre-market: Trading BELOW Overnight Low (7774.75) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
