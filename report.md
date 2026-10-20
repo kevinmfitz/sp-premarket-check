@@ -1,11 +1,12 @@
-# S&P (ES/MES) Pre-Market Conditions — 2026-10-19
+# S&P (ES/MES) Pre-Market Conditions — 2026-10-20
 
-_Generated 10/19/2026, 2:49:11 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 10/20/2026, 11:59:29 AM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: MIXED
 
 - No confluence — all four levels stand alone, each a bit weaker individually.
 - Overnight range is normal — no unusual skew toward either setup from range alone.
+- Pre-market: Trading ABOVE Overnight High (7752.75) — that level's sweep/break may already be in motion before the open.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -13,24 +14,25 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7742.00 | — |
-| Previous Day High (PDH) | 7803.25 | -61.25 |
-| Previous Day Low (PDL) | 7676.00 | 66.00 |
-| Overnight High (ONH) | 7768.50 | -26.50 |
-| Overnight Low (ONL) | 7718.50 | 23.50 |
+| Current (ES) | 7762.25 | — |
+| Previous Day High (PDH) | 7773.25 | -11.00 |
+| Previous Day Low (PDL) | 7727.50 | 34.75 |
+| Overnight High (ONH) | 7752.75 | 9.50 |
+| Overnight Low (ONL) | 7704.50 | 57.75 |
 
 ## Level Confluence
 
-No levels within 10 pts of each other — all four levels are distinct today (no confluence zone).
+No levels within 9 pts of each other — all four levels are distinct today (no confluence zone).
 
 ## Overnight Range
 
-Overnight range: **50.00 pts** vs. 20-session average of **65.38 pts** → **Normal**.
+Overnight range: **48.25 pts** vs. 20-session average of **62.19 pts** → **Normal**.
 
 ## Gap
 
-Current price is **+39.00 pts** vs. previous RTH close (7703.00).
-- Price is currently inside all four levels (no level broken pre-market).
+Current price is **+27.50 pts** vs. previous RTH close (7734.75).
+
+- Trading ABOVE Overnight High (7752.75)
 
 ## Economic Calendar Today
 
