@@ -1,12 +1,12 @@
 # S&P (ES/MES) Pre-Market Conditions — 2026-10-21
 
-_Generated 10/21/2026, 12:16:25 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 10/21/2026, 1:21:02 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: MIXED
 
 - Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.
 - Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.
-- Pre-market: Trading ABOVE Previous Day High (7791.5) — that level's sweep/break may already be in motion before the open.
+- Pre-market: Trading ABOVE Overnight High (7793); Trading ABOVE Previous Day High (7791.5) — that level's sweep/break may already be in motion before the open.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -14,11 +14,11 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7793.00 | — |
-| Previous Day High (PDH) | 7791.50 | 1.50 |
-| Previous Day Low (PDL) | 7710.25 | 82.75 |
-| Overnight High (ONH) | 7793.00 | 0.00 |
-| Overnight Low (ONL) | 7757.00 | 36.00 |
+| Current (ES) | 7807.00 | — |
+| Previous Day High (PDH) | 7791.50 | 15.50 |
+| Previous Day Low (PDL) | 7710.25 | 96.75 |
+| Overnight High (ONH) | 7793.00 | 14.00 |
+| Overnight Low (ONL) | 7757.00 | 50.00 |
 
 ## Level Confluence
 
@@ -33,8 +33,9 @@ _Tight range = levels are bunched close together; watch for lower-quality/choppy
 
 ## Gap
 
-Current price is **+34.00 pts** vs. previous RTH close (7759.00).
+Current price is **+48.00 pts** vs. previous RTH close (7759.00).
 
+- Trading ABOVE Overnight High (7793)
 - Trading ABOVE Previous Day High (7791.5)
 
 ## Economic Calendar Today
