@@ -1,41 +1,34 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-10-21T17:37:24.945Z",
-    "currentPrice": 7806.75,
-    "prevDate": "2026-10-20",
-    "PDH": 7791.5,
-    "PDL": 7710.25,
-    "prevClose": 7759,
-    "sessionDate": "2026-10-21",
-    "ONH": 7793,
-    "ONL": 7757,
-    "currentOnRange": 36,
-    "avgOnRange20": 64.6125,
+    "asOfUTC": "2026-10-22T16:15:05.051Z",
+    "currentPrice": 7714.75,
+    "prevDate": "2026-10-21",
+    "PDH": 7812.25,
+    "PDL": 7751,
+    "prevClose": 7799,
+    "sessionDate": "2026-10-22",
+    "ONH": 7798.75,
+    "ONL": 7710.25,
+    "currentOnRange": 88.5,
+    "avgOnRange20": 63.4125,
     "onRangeSampleSize": 20,
-    "gapPoints": 47.75
+    "gapPoints": -84.25
   },
   "events": [],
-  "clusters": [
-    {
-      "a": "PDH",
-      "b": "ONH",
-      "distance": 1.5
-    }
-  ],
+  "clusters": [],
   "threshold": 10,
-  "rangeRead": "Tight",
+  "rangeRead": "Normal",
   "breakoutNotes": [
-    "Trading ABOVE Overnight High (7793)",
-    "Trading ABOVE Previous Day High (7791.5)"
+    "Trading BELOW Previous Day Low (7751)"
   ],
   "verdict": {
     "verdict": "MIXED",
     "verdictClass": "mixed",
     "notes": [
-      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
-      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
-      "Pre-market: Trading ABOVE Overnight High (7793); Trading ABOVE Previous Day High (7791.5) — that level's sweep/break may already be in motion before the open."
+      "No confluence — all four levels stand alone, each a bit weaker individually.",
+      "Overnight range is normal — no unusual skew toward either setup from range alone.",
+      "Pre-market: Trading BELOW Previous Day Low (7751) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
