@@ -1,12 +1,11 @@
-# S&P (ES/MES) Pre-Market Conditions — 2026-10-22
+# S&P (ES/MES) Pre-Market Conditions — 2026-10-23
 
-_Generated 10/22/2026, 1:36:05 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 10/23/2026, 12:04:51 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: MIXED
 
 - No confluence — all four levels stand alone, each a bit weaker individually.
 - Overnight range is normal — no unusual skew toward either setup from range alone.
-- Pre-market: Trading BELOW Overnight Low (7710.25); Trading BELOW Previous Day Low (7751) — that level's sweep/break may already be in motion before the open.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -14,11 +13,11 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7696.25 | — |
-| Previous Day High (PDH) | 7812.25 | -116.00 |
-| Previous Day Low (PDL) | 7751.00 | -54.75 |
-| Overnight High (ONH) | 7798.75 | -102.50 |
-| Overnight Low (ONL) | 7710.25 | -14.00 |
+| Current (ES) | 7688.25 | — |
+| Previous Day High (PDH) | 7742.50 | -54.25 |
+| Previous Day Low (PDL) | 7676.75 | 11.50 |
+| Overnight High (ONH) | 7714.25 | -26.00 |
+| Overnight Low (ONL) | 7660.00 | 28.25 |
 
 ## Level Confluence
 
@@ -26,14 +25,12 @@ No levels within 10 pts of each other — all four levels are distinct today (no
 
 ## Overnight Range
 
-Overnight range: **88.50 pts** vs. 20-session average of **63.41 pts** → **Normal**.
+Overnight range: **54.25 pts** vs. 20-session average of **64.67 pts** → **Normal**.
 
 ## Gap
 
-Current price is **-102.75 pts** vs. previous RTH close (7799.00).
-
-- Trading BELOW Overnight Low (7710.25)
-- Trading BELOW Previous Day Low (7751)
+Current price is **-18.25 pts** vs. previous RTH close (7706.50).
+- Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
 
