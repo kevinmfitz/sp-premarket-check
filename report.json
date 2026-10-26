@@ -1,34 +1,46 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-10-23T17:24:55.558Z",
-    "currentPrice": 7667.5,
-    "prevDate": "2026-10-22",
-    "PDH": 7742.5,
-    "PDL": 7676.75,
-    "prevClose": 7706.5,
-    "sessionDate": "2026-10-23",
-    "ONH": 7714.25,
-    "ONL": 7660,
-    "currentOnRange": 54.25,
-    "avgOnRange20": 64.675,
+    "asOfUTC": "2026-10-26T17:51:16.997Z",
+    "currentPrice": 7713,
+    "prevDate": "2026-10-23",
+    "PDH": 7697.25,
+    "PDL": 7648.5,
+    "prevClose": 7661,
+    "sessionDate": "2026-10-26",
+    "ONH": 7697.75,
+    "ONL": 7651.75,
+    "currentOnRange": 46,
+    "avgOnRange20": 64.4625,
     "onRangeSampleSize": 20,
-    "gapPoints": -39
+    "gapPoints": 52
   },
   "events": [],
-  "clusters": [],
+  "clusters": [
+    {
+      "a": "PDH",
+      "b": "ONH",
+      "distance": 0.5
+    },
+    {
+      "a": "PDL",
+      "b": "ONL",
+      "distance": 3.25
+    }
+  ],
   "threshold": 10,
   "rangeRead": "Normal",
   "breakoutNotes": [
-    "Trading BELOW Previous Day Low (7676.75)"
+    "Trading ABOVE Overnight High (7697.75)",
+    "Trading ABOVE Previous Day High (7697.25)"
   ],
   "verdict": {
-    "verdict": "MIXED",
-    "verdictClass": "mixed",
+    "verdict": "FAVORABLE",
+    "verdictClass": "favorable",
     "notes": [
-      "No confluence — all four levels stand alone, each a bit weaker individually.",
+      "Confluence: PDH/ONH, PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
       "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading BELOW Previous Day Low (7676.75) — that level's sweep/break may already be in motion before the open."
+      "Pre-market: Trading ABOVE Overnight High (7697.75); Trading ABOVE Previous Day High (7697.25) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
