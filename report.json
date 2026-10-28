@@ -1,41 +1,45 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-10-27T18:14:30.446Z",
-    "currentPrice": 7755,
-    "prevDate": "2026-10-26",
-    "PDH": 7739.5,
-    "PDL": 7677,
-    "prevClose": 7714.5,
-    "sessionDate": "2026-10-27",
-    "ONH": 7749.25,
-    "ONL": 7699.75,
-    "currentOnRange": 49.5,
-    "avgOnRange20": 65.125,
+    "asOfUTC": "2026-10-28T17:35:41.190Z",
+    "currentPrice": 7770.5,
+    "prevDate": "2026-10-27",
+    "PDH": 7772.75,
+    "PDL": 7712.5,
+    "prevClose": 7758,
+    "sessionDate": "2026-10-28",
+    "ONH": 7778.25,
+    "ONL": 7752.25,
+    "currentOnRange": 26,
+    "avgOnRange20": 65.625,
     "onRangeSampleSize": 20,
-    "gapPoints": 40.5
+    "gapPoints": 12.5
   },
-  "events": [],
+  "events": [
+    {
+      "date": "2026-10-28",
+      "event": "FOMC Rate Decision",
+      "time": "14:00 ET",
+      "impact": "high"
+    }
+  ],
   "clusters": [
     {
       "a": "PDH",
       "b": "ONH",
-      "distance": 9.75
+      "distance": 5.5
     }
   ],
   "threshold": 10,
-  "rangeRead": "Normal",
-  "breakoutNotes": [
-    "Trading ABOVE Overnight High (7749.25)",
-    "Trading ABOVE Previous Day High (7739.5)"
-  ],
+  "rangeRead": "Tight",
+  "breakoutNotes": [],
   "verdict": {
-    "verdict": "FAVORABLE",
-    "verdictClass": "favorable",
+    "verdict": "MIXED",
+    "verdictClass": "mixed",
     "notes": [
       "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
-      "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading ABOVE Overnight High (7749.25); Trading ABOVE Previous Day High (7739.5) — that level's sweep/break may already be in motion before the open."
+      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
+      "High-impact release(s) today (FOMC Rate Decision) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
     ]
   }
 }
