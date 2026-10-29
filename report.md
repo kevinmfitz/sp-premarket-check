@@ -1,12 +1,12 @@
 # S&P (ES/MES) Pre-Market Conditions — 2026-10-29
 
-_Generated 10/29/2026, 1:45:21 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 10/29/2026, 2:32:34 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: LOW QUALITY
 
 - No confluence — all four levels stand alone, each a bit weaker individually.
 - Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.
-- Pre-market: Trading BELOW Previous Day Low (7751.5) — that level's sweep/break may already be in motion before the open.
+- Pre-market: Trading BELOW Overnight Low (7740); Trading BELOW Previous Day Low (7751.5) — that level's sweep/break may already be in motion before the open.
 - High-impact release(s) today (GDP (Advance) / Personal Income & Outlays (PCE)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
@@ -15,11 +15,11 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7741.25 | — |
-| Previous Day High (PDH) | 7794.25 | -53.00 |
-| Previous Day Low (PDL) | 7751.50 | -10.25 |
-| Overnight High (ONH) | 7773.75 | -32.50 |
-| Overnight Low (ONL) | 7740.00 | 1.25 |
+| Current (ES) | 7735.00 | — |
+| Previous Day High (PDH) | 7794.25 | -59.25 |
+| Previous Day Low (PDL) | 7751.50 | -16.50 |
+| Overnight High (ONH) | 7773.75 | -38.75 |
+| Overnight Low (ONL) | 7740.00 | -5.00 |
 
 ## Level Confluence
 
@@ -32,8 +32,9 @@ _Tight range = levels are bunched close together; watch for lower-quality/choppy
 
 ## Gap
 
-Current price is **-43.25 pts** vs. previous RTH close (7784.50).
+Current price is **-49.50 pts** vs. previous RTH close (7784.50).
 
+- Trading BELOW Overnight Low (7740)
 - Trading BELOW Previous Day Low (7751.5)
 
 ## Economic Calendar Today

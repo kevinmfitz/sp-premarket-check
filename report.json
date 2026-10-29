@@ -1,8 +1,8 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-10-29T17:45:21.126Z",
-    "currentPrice": 7741.25,
+    "asOfUTC": "2026-10-29T18:32:34.972Z",
+    "currentPrice": 7735,
     "prevDate": "2026-10-28",
     "PDH": 7794.25,
     "PDL": 7751.5,
@@ -13,7 +13,7 @@
     "currentOnRange": 33.75,
     "avgOnRange20": 65.8,
     "onRangeSampleSize": 20,
-    "gapPoints": -43.25
+    "gapPoints": -49.5
   },
   "events": [
     {
@@ -27,6 +27,7 @@
   "threshold": 10,
   "rangeRead": "Tight",
   "breakoutNotes": [
+    "Trading BELOW Overnight Low (7740)",
     "Trading BELOW Previous Day Low (7751.5)"
   ],
   "verdict": {
@@ -35,7 +36,7 @@
     "notes": [
       "No confluence — all four levels stand alone, each a bit weaker individually.",
       "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
-      "Pre-market: Trading BELOW Previous Day Low (7751.5) — that level's sweep/break may already be in motion before the open.",
+      "Pre-market: Trading BELOW Overnight Low (7740); Trading BELOW Previous Day Low (7751.5) — that level's sweep/break may already be in motion before the open.",
       "High-impact release(s) today (GDP (Advance) / Personal Income & Outlays (PCE)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
     ]
   }
