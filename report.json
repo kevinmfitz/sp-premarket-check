@@ -1,45 +1,42 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-10-28T18:28:41.840Z",
-    "currentPrice": 7761.25,
-    "prevDate": "2026-10-27",
-    "PDH": 7772.75,
-    "PDL": 7712.5,
-    "prevClose": 7758,
-    "sessionDate": "2026-10-28",
-    "ONH": 7778.25,
-    "ONL": 7752.25,
-    "currentOnRange": 26,
-    "avgOnRange20": 65.625,
+    "asOfUTC": "2026-10-29T17:45:21.126Z",
+    "currentPrice": 7741.25,
+    "prevDate": "2026-10-28",
+    "PDH": 7794.25,
+    "PDL": 7751.5,
+    "prevClose": 7784.5,
+    "sessionDate": "2026-10-29",
+    "ONH": 7773.75,
+    "ONL": 7740,
+    "currentOnRange": 33.75,
+    "avgOnRange20": 65.8,
     "onRangeSampleSize": 20,
-    "gapPoints": 3.25
+    "gapPoints": -43.25
   },
   "events": [
     {
-      "date": "2026-10-28",
-      "event": "FOMC Rate Decision",
-      "time": "14:00 ET",
+      "date": "2026-10-29",
+      "event": "GDP (Advance) / Personal Income & Outlays (PCE)",
+      "time": "08:30 ET",
       "impact": "high"
     }
   ],
-  "clusters": [
-    {
-      "a": "PDH",
-      "b": "ONH",
-      "distance": 5.5
-    }
-  ],
+  "clusters": [],
   "threshold": 10,
   "rangeRead": "Tight",
-  "breakoutNotes": [],
+  "breakoutNotes": [
+    "Trading BELOW Previous Day Low (7751.5)"
+  ],
   "verdict": {
-    "verdict": "MIXED",
-    "verdictClass": "mixed",
+    "verdict": "LOW QUALITY",
+    "verdictClass": "low",
     "notes": [
-      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
+      "No confluence — all four levels stand alone, each a bit weaker individually.",
       "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
-      "High-impact release(s) today (FOMC Rate Decision) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
+      "Pre-market: Trading BELOW Previous Day Low (7751.5) — that level's sweep/break may already be in motion before the open.",
+      "High-impact release(s) today (GDP (Advance) / Personal Income & Outlays (PCE)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
     ]
   }
 }
