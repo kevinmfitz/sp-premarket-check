@@ -1,12 +1,11 @@
 # S&P (ES/MES) Pre-Market Conditions — 2026-11-03
 
-_Generated 11/3/2026, 2:36:15 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/3/2026, 2:46:14 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: MIXED
 
 - No confluence — all four levels stand alone, each a bit weaker individually.
 - Overnight range is normal — no unusual skew toward either setup from range alone.
-- Pre-market: Trading ABOVE Overnight High (7604.75) — that level's sweep/break may already be in motion before the open.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -14,11 +13,11 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7607.00 | — |
-| Previous Day High (PDH) | 7693.75 | -86.75 |
-| Previous Day Low (PDL) | 7570.75 | 36.25 |
-| Overnight High (ONH) | 7604.75 | 2.25 |
-| Overnight Low (ONL) | 7546.00 | 61.00 |
+| Current (ES) | 7602.50 | — |
+| Previous Day High (PDH) | 7693.75 | -91.25 |
+| Previous Day Low (PDL) | 7570.75 | 31.75 |
+| Overnight High (ONH) | 7604.75 | -2.25 |
+| Overnight Low (ONL) | 7546.00 | 56.50 |
 
 ## Level Confluence
 
@@ -30,9 +29,8 @@ Overnight range: **58.75 pts** vs. 20-session average of **67.74 pts** → **Nor
 
 ## Gap
 
-Current price is **+30.75 pts** vs. previous RTH close (7576.25).
-
-- Trading ABOVE Overnight High (7604.75)
+Current price is **+26.25 pts** vs. previous RTH close (7576.25).
+- Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
 
