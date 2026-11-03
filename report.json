@@ -1,37 +1,34 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-11-02T21:54:42.731Z",
-    "currentPrice": 7590.5,
+    "asOfUTC": "2026-11-03T18:46:20.453Z",
+    "currentPrice": 7620.5,
     "prevDate": "2026-11-02",
     "PDH": 7693.75,
     "PDL": 7570.75,
     "prevClose": 7576.25,
-    "sessionDate": "2026-11-02",
-    "ONH": 7662,
-    "ONL": 7575.25,
-    "currentOnRange": 86.75,
-    "avgOnRange20": 67.0125,
+    "sessionDate": "2026-11-03",
+    "ONH": 7604.75,
+    "ONL": 7546,
+    "currentOnRange": 58.75,
+    "avgOnRange20": 67.7375,
     "onRangeSampleSize": 20,
-    "gapPoints": 14.25
+    "gapPoints": 44.25
   },
   "events": [],
-  "clusters": [
-    {
-      "a": "PDL",
-      "b": "ONL",
-      "distance": 4.5
-    }
-  ],
+  "clusters": [],
   "threshold": 10,
   "rangeRead": "Normal",
-  "breakoutNotes": [],
+  "breakoutNotes": [
+    "Trading ABOVE Overnight High (7604.75)"
+  ],
   "verdict": {
-    "verdict": "FAVORABLE",
-    "verdictClass": "favorable",
+    "verdict": "MIXED",
+    "verdictClass": "mixed",
     "notes": [
-      "Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
-      "Overnight range is normal — no unusual skew toward either setup from range alone."
+      "No confluence — all four levels stand alone, each a bit weaker individually.",
+      "Overnight range is normal — no unusual skew toward either setup from range alone.",
+      "Pre-market: Trading ABOVE Overnight High (7604.75) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }

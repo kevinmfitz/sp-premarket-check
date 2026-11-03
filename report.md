@@ -1,11 +1,12 @@
-# S&P (ES/MES) Pre-Market Conditions — 2026-11-02
+# S&P (ES/MES) Pre-Market Conditions — 2026-11-03
 
-_Generated 11/2/2026, 4:54:42 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/3/2026, 1:46:20 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
-## Today's Read: FAVORABLE
+## Today's Read: MIXED
 
-- Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.
+- No confluence — all four levels stand alone, each a bit weaker individually.
 - Overnight range is normal — no unusual skew toward either setup from range alone.
+- Pre-market: Trading ABOVE Overnight High (7604.75) — that level's sweep/break may already be in motion before the open.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -13,26 +14,25 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7590.50 | — |
-| Previous Day High (PDH) | 7693.75 | -103.25 |
-| Previous Day Low (PDL) | 7570.75 | 19.75 |
-| Overnight High (ONH) | 7662.00 | -71.50 |
-| Overnight Low (ONL) | 7575.25 | 15.25 |
+| Current (ES) | 7620.50 | — |
+| Previous Day High (PDH) | 7693.75 | -73.25 |
+| Previous Day Low (PDL) | 7570.75 | 49.75 |
+| Overnight High (ONH) | 7604.75 | 15.75 |
+| Overnight Low (ONL) | 7546.00 | 74.50 |
 
 ## Level Confluence
 
-Levels within 10 pts of each other (stronger, higher-conviction zones):
-
-- **PDL & ONL** are only 4.5 pts apart — a cluster worth weighting more.
+No levels within 10 pts of each other — all four levels are distinct today (no confluence zone).
 
 ## Overnight Range
 
-Overnight range: **86.75 pts** vs. 20-session average of **67.01 pts** → **Normal**.
+Overnight range: **58.75 pts** vs. 20-session average of **67.74 pts** → **Normal**.
 
 ## Gap
 
-Current price is **+14.25 pts** vs. previous RTH close (7576.25).
-- Price is currently inside all four levels (no level broken pre-market).
+Current price is **+44.25 pts** vs. previous RTH close (7576.25).
+
+- Trading ABOVE Overnight High (7604.75)
 
 ## Economic Calendar Today
 
