@@ -1,46 +1,39 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-11-05T20:14:34.179Z",
-    "currentPrice": 7425.75,
-    "prevDate": "2026-11-04",
-    "PDH": 7746.25,
-    "PDL": 7679.75,
-    "prevClose": 7721.75,
-    "sessionDate": "2026-11-05",
-    "ONH": 7738.75,
-    "ONL": 7691,
-    "currentOnRange": 47.75,
-    "avgOnRange20": 78.1,
+    "asOfUTC": "2026-11-06T18:39:26.445Z",
+    "currentPrice": 7420,
+    "prevDate": "2026-11-05",
+    "PDH": 7712.5,
+    "PDL": 7377.25,
+    "prevClose": 7381.25,
+    "sessionDate": "2026-11-06",
+    "ONH": 7427.25,
+    "ONL": 7322.25,
+    "currentOnRange": 105,
+    "avgOnRange20": 94.9625,
     "onRangeSampleSize": 20,
-    "gapPoints": -296
+    "gapPoints": 38.75
   },
-  "events": [],
-  "clusters": [
+  "events": [
     {
-      "a": "PDH",
-      "b": "ONH",
-      "distance": 7.5
-    },
-    {
-      "a": "PDL",
-      "b": "ONL",
-      "distance": 11.25
+      "date": "2026-11-06",
+      "event": "Employment Situation (NFP)",
+      "time": "08:30 ET",
+      "impact": "high"
     }
   ],
-  "threshold": 12,
+  "clusters": [],
+  "threshold": 14,
   "rangeRead": "Normal",
-  "breakoutNotes": [
-    "Trading BELOW Overnight Low (7691)",
-    "Trading BELOW Previous Day Low (7679.75)"
-  ],
+  "breakoutNotes": [],
   "verdict": {
-    "verdict": "FAVORABLE",
-    "verdictClass": "favorable",
+    "verdict": "MIXED",
+    "verdictClass": "mixed",
     "notes": [
-      "Confluence: PDH/ONH, PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
+      "No confluence — all four levels stand alone, each a bit weaker individually.",
       "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "Pre-market: Trading BELOW Overnight Low (7691); Trading BELOW Previous Day Low (7679.75) — that level's sweep/break may already be in motion before the open."
+      "High-impact release(s) today (Employment Situation (NFP)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
     ]
   }
 }
