@@ -1,39 +1,37 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-11-06T19:39:54.782Z",
-    "currentPrice": 7425.25,
-    "prevDate": "2026-11-05",
-    "PDH": 7712.5,
-    "PDL": 7377.25,
-    "prevClose": 7381.25,
-    "sessionDate": "2026-11-06",
-    "ONH": 7427.25,
-    "ONL": 7322.25,
-    "currentOnRange": 105,
-    "avgOnRange20": 94.9625,
+    "asOfUTC": "2026-11-09T21:43:20.327Z",
+    "currentPrice": 7574.5,
+    "prevDate": "2026-11-09",
+    "PDH": 7600.5,
+    "PDL": 7455.75,
+    "prevClose": 7572.25,
+    "sessionDate": "2026-11-09",
+    "ONH": 7586.5,
+    "ONL": 7385.5,
+    "currentOnRange": 201,
+    "avgOnRange20": 97.7,
     "onRangeSampleSize": 20,
-    "gapPoints": 44
+    "gapPoints": 2.25
   },
-  "events": [
+  "events": [],
+  "clusters": [
     {
-      "date": "2026-11-06",
-      "event": "Employment Situation (NFP)",
-      "time": "08:30 ET",
-      "impact": "high"
+      "a": "PDH",
+      "b": "ONH",
+      "distance": 14
     }
   ],
-  "clusters": [],
-  "threshold": 14,
-  "rangeRead": "Normal",
+  "threshold": 15,
+  "rangeRead": "Wide",
   "breakoutNotes": [],
   "verdict": {
-    "verdict": "MIXED",
-    "verdictClass": "mixed",
+    "verdict": "FAVORABLE",
+    "verdictClass": "favorable",
     "notes": [
-      "No confluence — all four levels stand alone, each a bit weaker individually.",
-      "Overnight range is normal — no unusual skew toward either setup from range alone.",
-      "High-impact release(s) today (Employment Situation (NFP)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
+      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
+      "Overnight range is wide — a lot already moved overnight; edge may favor Sweep & Reclaim (fade) over fresh Break & Hold continuation."
     ]
   }
 }
