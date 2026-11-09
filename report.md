@@ -1,6 +1,6 @@
 # S&P (ES/MES) Pre-Market Conditions — 2026-11-09
 
-_Generated 11/9/2026, 5:29:35 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/9/2026, 5:40:43 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: FAVORABLE
 
@@ -32,7 +32,7 @@ _Wide range = a lot has already happened overnight; a reversal (Sweep & Reclaim)
 
 ## Gap
 
-Current price is **+8.00 pts** vs. previous RTH close (7572.25).
+Current price is **+7.75 pts** vs. previous RTH close (7572.50).
 - Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
