@@ -1,37 +1,45 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-11-09T22:40:43.251Z",
-    "currentPrice": 7580.25,
+    "asOfUTC": "2026-11-10T19:01:13.133Z",
+    "currentPrice": 7517.25,
     "prevDate": "2026-11-09",
     "PDH": 7600.5,
     "PDL": 7455.75,
-    "prevClose": 7572.5,
-    "sessionDate": "2026-11-09",
-    "ONH": 7586.5,
-    "ONL": 7385.5,
-    "currentOnRange": 201,
-    "avgOnRange20": 97.7,
+    "prevClose": 7572.25,
+    "sessionDate": "2026-11-10",
+    "ONH": 7598.75,
+    "ONL": 7509,
+    "currentOnRange": 89.75,
+    "avgOnRange20": 106.1,
     "onRangeSampleSize": 20,
-    "gapPoints": 7.75
+    "gapPoints": -55
   },
-  "events": [],
+  "events": [
+    {
+      "date": "2026-11-10",
+      "event": "CPI",
+      "time": "08:30 ET",
+      "impact": "high"
+    }
+  ],
   "clusters": [
     {
       "a": "PDH",
       "b": "ONH",
-      "distance": 14
+      "distance": 1.75
     }
   ],
-  "threshold": 15,
-  "rangeRead": "Wide",
+  "threshold": 16,
+  "rangeRead": "Normal",
   "breakoutNotes": [],
   "verdict": {
     "verdict": "FAVORABLE",
     "verdictClass": "favorable",
     "notes": [
       "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
-      "Overnight range is wide — a lot already moved overnight; edge may favor Sweep & Reclaim (fade) over fresh Break & Hold continuation."
+      "Overnight range is normal — no unusual skew toward either setup from range alone.",
+      "High-impact release(s) today (CPI) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
     ]
   }
 }
