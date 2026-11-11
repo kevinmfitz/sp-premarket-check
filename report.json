@@ -1,19 +1,19 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-11-11T19:42:26.350Z",
-    "currentPrice": 7650.5,
+    "asOfUTC": "2026-11-11T19:50:19.033Z",
+    "currentPrice": 7652.75,
     "prevDate": "2026-11-10",
     "PDH": 7566.25,
     "PDL": 7493,
     "prevClose": 7544.75,
     "sessionDate": "2026-11-11",
     "ONH": 7620,
-    "ONL": 7549.25,
-    "currentOnRange": 70.75,
+    "ONL": 7548,
+    "currentOnRange": 72,
     "avgOnRange20": 109.1875,
     "onRangeSampleSize": 20,
-    "gapPoints": 105.75
+    "gapPoints": 108
   },
   "events": [],
   "clusters": [],
