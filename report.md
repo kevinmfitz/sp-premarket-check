@@ -1,6 +1,6 @@
 # S&P (ES/MES) Pre-Market Conditions — 2026-11-16
 
-_Generated 11/16/2026, 5:17:48 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/16/2026, 5:29:03 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: FAVORABLE
 
@@ -27,12 +27,12 @@ Levels within 16 pts of each other (stronger, higher-conviction zones):
 
 ## Overnight Range
 
-Overnight range: **183.25 pts** vs. 20-session average of **108.71 pts** → **Wide**.
+Overnight range: **183.25 pts** vs. 20-session average of **108.78 pts** → **Wide**.
 _Wide range = a lot has already happened overnight; a reversal (Sweep & Reclaim) may be more likely than fresh continuation._
 
 ## Gap
 
-Current price is **-3.00 pts** vs. previous RTH close (7441.50).
+Current price is **-3.25 pts** vs. previous RTH close (7441.75).
 - Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
