@@ -1,6 +1,6 @@
 # S&P (ES/MES) Pre-Market Conditions — 2026-11-16
 
-_Generated 11/16/2026, 4:24:15 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/16/2026, 5:17:48 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: FAVORABLE
 
@@ -13,26 +13,26 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7441.00 | — |
-| Previous Day High (PDH) | 7538.75 | -97.75 |
-| Previous Day Low (PDL) | 7420.25 | 20.75 |
-| Overnight High (ONH) | 7614.25 | -173.25 |
-| Overnight Low (ONL) | 7433.25 | 7.75 |
+| Current (ES) | 7438.50 | — |
+| Previous Day High (PDH) | 7538.75 | -100.25 |
+| Previous Day Low (PDL) | 7420.25 | 18.25 |
+| Overnight High (ONH) | 7614.25 | -175.75 |
+| Overnight Low (ONL) | 7431.00 | 7.50 |
 
 ## Level Confluence
 
 Levels within 16 pts of each other (stronger, higher-conviction zones):
 
-- **PDL & ONL** are only 13 pts apart — a cluster worth weighting more.
+- **PDL & ONL** are only 10.75 pts apart — a cluster worth weighting more.
 
 ## Overnight Range
 
-Overnight range: **181.00 pts** vs. 20-session average of **108.78 pts** → **Wide**.
+Overnight range: **183.25 pts** vs. 20-session average of **108.71 pts** → **Wide**.
 _Wide range = a lot has already happened overnight; a reversal (Sweep & Reclaim) may be more likely than fresh continuation._
 
 ## Gap
 
-Current price is **-0.75 pts** vs. previous RTH close (7441.75).
+Current price is **-3.00 pts** vs. previous RTH close (7441.50).
 - Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
