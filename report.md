@@ -1,12 +1,11 @@
 # S&P (ES/MES) Pre-Market Conditions — 2026-11-17
 
-_Generated 11/17/2026, 4:03:39 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/17/2026, 4:18:00 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
-## Today's Read: LOW QUALITY
+## Today's Read: MIXED
 
 - No confluence — all four levels stand alone, each a bit weaker individually.
-- Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.
-- Pre-market: Trading BELOW Overnight Low (7395.25) — that level's sweep/break may already be in motion before the open.
+- Overnight range is normal — no unusual skew toward either setup from range alone.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -14,11 +13,11 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7334.00 | — |
-| Previous Day High (PDH) | 7437.00 | -103.00 |
-| Previous Day Low (PDL) | 7308.00 | 26.00 |
-| Overnight High (ONH) | 7456.75 | -122.75 |
-| Overnight Low (ONL) | 7395.25 | -61.25 |
+| Current (ES) | 7360.25 | — |
+| Previous Day High (PDH) | 7437.00 | -76.75 |
+| Previous Day Low (PDL) | 7308.00 | 52.25 |
+| Overnight High (ONH) | 7456.75 | -96.50 |
+| Overnight Low (ONL) | 7355.75 | 4.50 |
 
 ## Level Confluence
 
@@ -26,14 +25,12 @@ No levels within 17 pts of each other — all four levels are distinct today (no
 
 ## Overnight Range
 
-Overnight range: **61.50 pts** vs. 20-session average of **115.38 pts** → **Tight**.
-_Tight range = levels are bunched close together; watch for lower-quality/choppy sweeps._
+Overnight range: **101.00 pts** vs. 20-session average of **115.38 pts** → **Normal**.
 
 ## Gap
 
-Current price is **+0.00 pts** vs. previous RTH close (7334.00).
-
-- Trading BELOW Overnight Low (7395.25)
+Current price is **-3.25 pts** vs. previous RTH close (7363.50).
+- Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
 
