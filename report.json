@@ -1,37 +1,42 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-11-16T22:29:03.621Z",
-    "currentPrice": 7438.5,
+    "asOfUTC": "2026-11-17T20:12:01.379Z",
+    "currentPrice": 7319.5,
     "prevDate": "2026-11-16",
     "PDH": 7538.75,
     "PDL": 7420.25,
     "prevClose": 7441.75,
-    "sessionDate": "2026-11-16",
-    "ONH": 7614.25,
-    "ONL": 7431,
-    "currentOnRange": 183.25,
-    "avgOnRange20": 108.775,
+    "sessionDate": "2026-11-17",
+    "ONH": 7456.75,
+    "ONL": 7395.25,
+    "currentOnRange": 61.5,
+    "avgOnRange20": 115.4375,
     "onRangeSampleSize": 20,
-    "gapPoints": -3.25
+    "gapPoints": -122.25
   },
-  "events": [],
-  "clusters": [
+  "events": [
     {
-      "a": "PDL",
-      "b": "ONL",
-      "distance": 10.75
+      "date": "2026-11-17",
+      "event": "Retail Sales",
+      "time": "08:30 ET",
+      "impact": "medium"
     }
   ],
-  "threshold": 16,
-  "rangeRead": "Wide",
-  "breakoutNotes": [],
+  "clusters": [],
+  "threshold": 17,
+  "rangeRead": "Tight",
+  "breakoutNotes": [
+    "Trading BELOW Overnight Low (7395.25)",
+    "Trading BELOW Previous Day Low (7420.25)"
+  ],
   "verdict": {
-    "verdict": "FAVORABLE",
-    "verdictClass": "favorable",
+    "verdict": "LOW QUALITY",
+    "verdictClass": "low",
     "notes": [
-      "Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
-      "Overnight range is wide — a lot already moved overnight; edge may favor Sweep & Reclaim (fade) over fresh Break & Hold continuation."
+      "No confluence — all four levels stand alone, each a bit weaker individually.",
+      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
+      "Pre-market: Trading BELOW Overnight Low (7395.25); Trading BELOW Previous Day Low (7420.25) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
