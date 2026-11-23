@@ -1,12 +1,11 @@
-# S&P (ES/MES) Pre-Market Conditions — 2026-11-20
+# S&P (ES/MES) Pre-Market Conditions — 2026-11-23
 
-_Generated 11/20/2026, 3:42:00 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/23/2026, 6:01:36 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
-## Today's Read: FAVORABLE
+## Today's Read: MIXED
 
-- Confluence: PDL/ONH clustered — stronger, higher-conviction zone(s) today.
-- Overnight range is normal — no unusual skew toward either setup from range alone.
-- Pre-market: Trading BELOW Overnight Low (7105); Trading BELOW Previous Day Low (7192) — that level's sweep/break may already be in motion before the open.
+- No confluence — all four levels stand alone, each a bit weaker individually.
+- Overnight range is wide — a lot already moved overnight; edge may favor Sweep & Reclaim (fade) over fresh Break & Hold continuation.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -14,28 +13,25 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 6941.75 | — |
-| Previous Day High (PDH) | 7436.50 | -494.75 |
-| Previous Day Low (PDL) | 7192.00 | -250.25 |
-| Overnight High (ONH) | 7199.25 | -257.50 |
-| Overnight Low (ONL) | 7105.00 | -163.25 |
+| Current (ES) | 7270.50 | — |
+| Previous Day High (PDH) | 7313.25 | -42.75 |
+| Previous Day Low (PDL) | 7167.00 | 103.50 |
+| Overnight High (ONH) | 7277.75 | -7.25 |
+| Overnight Low (ONL) | 6992.00 | 278.50 |
 
 ## Level Confluence
 
-Levels within 19 pts of each other (stronger, higher-conviction zones):
-
-- **PDL & ONH** are only 7.25 pts apart — a cluster worth weighting more.
+No levels within 21 pts of each other — all four levels are distinct today (no confluence zone).
 
 ## Overnight Range
 
-Overnight range: **94.25 pts** vs. 20-session average of **127.97 pts** → **Normal**.
+Overnight range: **285.75 pts** vs. 20-session average of **138.99 pts** → **Wide**.
+_Wide range = a lot has already happened overnight; a reversal (Sweep & Reclaim) may be more likely than fresh continuation._
 
 ## Gap
 
-Current price is **-252.50 pts** vs. previous RTH close (7194.25).
-
-- Trading BELOW Overnight Low (7105)
-- Trading BELOW Previous Day Low (7192)
+Current price is **+12.75 pts** vs. previous RTH close (7257.75).
+- Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
 
