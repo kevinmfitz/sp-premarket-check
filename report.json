@@ -1,31 +1,31 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-11-23T23:01:36.337Z",
-    "currentPrice": 7270.5,
+    "asOfUTC": "2026-11-24T00:01:43.605Z",
+    "currentPrice": 7247,
     "prevDate": "2026-11-23",
     "PDH": 7313.25,
     "PDL": 7167,
     "prevClose": 7257.75,
-    "sessionDate": "2026-11-23",
-    "ONH": 7277.75,
-    "ONL": 6992,
-    "currentOnRange": 285.75,
-    "avgOnRange20": 138.9875,
+    "sessionDate": "2026-11-24",
+    "ONH": 7276.5,
+    "ONL": 7239.5,
+    "currentOnRange": 37,
+    "avgOnRange20": 150.025,
     "onRangeSampleSize": 20,
-    "gapPoints": 12.75
+    "gapPoints": -10.75
   },
   "events": [],
   "clusters": [],
-  "threshold": 21,
-  "rangeRead": "Wide",
+  "threshold": 23,
+  "rangeRead": "Tight",
   "breakoutNotes": [],
   "verdict": {
-    "verdict": "MIXED",
-    "verdictClass": "mixed",
+    "verdict": "LOW QUALITY",
+    "verdictClass": "low",
     "notes": [
       "No confluence — all four levels stand alone, each a bit weaker individually.",
-      "Overnight range is wide — a lot already moved overnight; edge may favor Sweep & Reclaim (fade) over fresh Break & Hold continuation."
+      "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk."
     ]
   }
 }

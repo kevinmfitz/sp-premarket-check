@@ -1,11 +1,11 @@
-# S&P (ES/MES) Pre-Market Conditions — 2026-11-23
+# S&P (ES/MES) Pre-Market Conditions — 2026-11-24
 
-_Generated 11/23/2026, 6:01:36 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/23/2026, 7:01:43 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
-## Today's Read: MIXED
+## Today's Read: LOW QUALITY
 
 - No confluence — all four levels stand alone, each a bit weaker individually.
-- Overnight range is wide — a lot already moved overnight; edge may favor Sweep & Reclaim (fade) over fresh Break & Hold continuation.
+- Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -13,24 +13,24 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7270.50 | — |
-| Previous Day High (PDH) | 7313.25 | -42.75 |
-| Previous Day Low (PDL) | 7167.00 | 103.50 |
-| Overnight High (ONH) | 7277.75 | -7.25 |
-| Overnight Low (ONL) | 6992.00 | 278.50 |
+| Current (ES) | 7247.00 | — |
+| Previous Day High (PDH) | 7313.25 | -66.25 |
+| Previous Day Low (PDL) | 7167.00 | 80.00 |
+| Overnight High (ONH) | 7276.50 | -29.50 |
+| Overnight Low (ONL) | 7239.50 | 7.50 |
 
 ## Level Confluence
 
-No levels within 21 pts of each other — all four levels are distinct today (no confluence zone).
+No levels within 23 pts of each other — all four levels are distinct today (no confluence zone).
 
 ## Overnight Range
 
-Overnight range: **285.75 pts** vs. 20-session average of **138.99 pts** → **Wide**.
-_Wide range = a lot has already happened overnight; a reversal (Sweep & Reclaim) may be more likely than fresh continuation._
+Overnight range: **37.00 pts** vs. 20-session average of **150.03 pts** → **Tight**.
+_Tight range = levels are bunched close together; watch for lower-quality/choppy sweeps._
 
 ## Gap
 
-Current price is **+12.75 pts** vs. previous RTH close (7257.75).
+Current price is **-10.75 pts** vs. previous RTH close (7257.75).
 - Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
