@@ -1,26 +1,33 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-11-24T22:44:08.183Z",
-    "currentPrice": 7210.75,
+    "asOfUTC": "2026-11-25T20:49:12.440Z",
+    "currentPrice": 7168.25,
     "prevDate": "2026-11-24",
     "PDH": 7240.75,
     "PDL": 7152.25,
     "prevClose": 7220.25,
-    "sessionDate": "2026-11-24",
-    "ONH": 7298.25,
-    "ONL": 7144.75,
-    "currentOnRange": 153.5,
-    "avgOnRange20": 150.025,
+    "sessionDate": "2026-11-25",
+    "ONH": 7224,
+    "ONL": 7058.25,
+    "currentOnRange": 165.75,
+    "avgOnRange20": 154.4625,
     "onRangeSampleSize": 20,
-    "gapPoints": -9.5
+    "gapPoints": -52
   },
-  "events": [],
+  "events": [
+    {
+      "date": "2026-11-25",
+      "event": "GDP / Personal Income & Outlays (PCE)",
+      "time": "08:30 ET",
+      "impact": "high"
+    }
+  ],
   "clusters": [
     {
-      "a": "PDL",
-      "b": "ONL",
-      "distance": 7.5
+      "a": "PDH",
+      "b": "ONH",
+      "distance": 16.75
     }
   ],
   "threshold": 23,
@@ -30,8 +37,9 @@
     "verdict": "FAVORABLE",
     "verdictClass": "favorable",
     "notes": [
-      "Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.",
-      "Overnight range is normal — no unusual skew toward either setup from range alone."
+      "Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.",
+      "Overnight range is normal — no unusual skew toward either setup from range alone.",
+      "High-impact release(s) today (GDP / Personal Income & Outlays (PCE)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip."
     ]
   }
 }

@@ -1,11 +1,12 @@
-# S&P (ES/MES) Pre-Market Conditions — 2026-11-24
+# S&P (ES/MES) Pre-Market Conditions — 2026-11-25
 
-_Generated 11/24/2026, 5:44:08 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/25/2026, 3:49:12 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: FAVORABLE
 
-- Confluence: PDL/ONL clustered — stronger, higher-conviction zone(s) today.
+- Confluence: PDH/ONH clustered — stronger, higher-conviction zone(s) today.
 - Overnight range is normal — no unusual skew toward either setup from range alone.
+- High-impact release(s) today (GDP / Personal Income & Outlays (PCE)) — expect sharper, noisier moves; often the catalyst for the opening sweep, not a reason to skip.
 
 _This is an environment read, not a trade call — both setups still require their full live sequence to confirm._
 
@@ -13,30 +14,32 @@ _This is an environment read, not a trade call — both setups still require the
 
 | Level | Price | Distance from current |
 |---|---|---|
-| Current (ES) | 7210.75 | — |
-| Previous Day High (PDH) | 7240.75 | -30.00 |
-| Previous Day Low (PDL) | 7152.25 | 58.50 |
-| Overnight High (ONH) | 7298.25 | -87.50 |
-| Overnight Low (ONL) | 7144.75 | 66.00 |
+| Current (ES) | 7168.25 | — |
+| Previous Day High (PDH) | 7240.75 | -72.50 |
+| Previous Day Low (PDL) | 7152.25 | 16.00 |
+| Overnight High (ONH) | 7224.00 | -55.75 |
+| Overnight Low (ONL) | 7058.25 | 110.00 |
 
 ## Level Confluence
 
 Levels within 23 pts of each other (stronger, higher-conviction zones):
 
-- **PDL & ONL** are only 7.5 pts apart — a cluster worth weighting more.
+- **PDH & ONH** are only 16.75 pts apart — a cluster worth weighting more.
 
 ## Overnight Range
 
-Overnight range: **153.50 pts** vs. 20-session average of **150.03 pts** → **Normal**.
+Overnight range: **165.75 pts** vs. 20-session average of **154.46 pts** → **Normal**.
 
 ## Gap
 
-Current price is **-9.50 pts** vs. previous RTH close (7220.25).
+Current price is **-52.00 pts** vs. previous RTH close (7220.25).
 - Price is currently inside all four levels (no level broken pre-market).
 
 ## Economic Calendar Today
 
-- No high-impact scheduled releases today.
+- **08:30 ET** — GDP / Personal Income & Outlays (PCE) (high impact)
+
+_High-impact releases at/near 8:30 ET often ARE the catalyst for the initial ONH/ONL sweep right at the open — expect more noise, not necessarily a reason to skip._
 
 ---
 _Reminder: this is pre-market context only. Neither Sweep & Reclaim nor Break & Hold is confirmed until its full live sequence plays out (sweep→reclaim→structure break→retest, or break→acceptance→retest→hold→structure) during the 9:30-11:30 ET window. Trade only if the sequence actually shows up._
