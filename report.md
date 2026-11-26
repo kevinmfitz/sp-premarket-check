@@ -1,6 +1,6 @@
 # S&P (ES/MES) Pre-Market Conditions — 2026-11-26
 
-_Generated 11/26/2026, 4:42:20 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
+_Generated 11/26/2026, 4:53:26 PM ET · data as of last Yahoo Finance print, informational only, not a trade signal._
 
 ## Today's Read: LOW QUALITY
 
