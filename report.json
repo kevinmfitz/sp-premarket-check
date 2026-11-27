@@ -1,8 +1,8 @@
 {
   "levels": {
     "symbol": "ES=F",
-    "asOfUTC": "2026-11-26T21:53:26.640Z",
-    "currentPrice": 7234.5,
+    "asOfUTC": "2026-11-27T20:26:54.246Z",
+    "currentPrice": 7308.25,
     "prevDate": "2026-11-25",
     "PDH": 7214,
     "PDL": 6982.5,
@@ -13,13 +13,14 @@
     "currentOnRange": 66.75,
     "avgOnRange20": 159.2875,
     "onRangeSampleSize": 20,
-    "gapPoints": 38
+    "gapPoints": 111.75
   },
   "events": [],
   "clusters": [],
   "threshold": 24,
   "rangeRead": "Tight",
   "breakoutNotes": [
+    "Trading ABOVE Overnight High (7253.75)",
     "Trading ABOVE Previous Day High (7214)"
   ],
   "verdict": {
@@ -28,7 +29,7 @@
     "notes": [
       "No confluence — all four levels stand alone, each a bit weaker individually.",
       "Overnight range is tight — levels are bunched close together, higher chop/false-sweep risk.",
-      "Pre-market: Trading ABOVE Previous Day High (7214) — that level's sweep/break may already be in motion before the open."
+      "Pre-market: Trading ABOVE Overnight High (7253.75); Trading ABOVE Previous Day High (7214) — that level's sweep/break may already be in motion before the open."
     ]
   }
 }
